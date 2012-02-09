@@ -1,0 +1,142 @@
+<html>
+<head>
+    <style>
+        input{
+            margin:5px;
+        }
+        
+        .hide{
+            display:none;
+        }
+
+    </style>
+    
+    <script type="text/javascript" src="form.js"></script>
+    
+</head>
+
+<body>
+
+
+<form name="new_work_form">
+<!--LINE1-->
+<!-- job title (comma after) -->
+
+Job title: 
+<input type="text" name="jobtitle" /> 
+
+
+<!-- employer -->
+
+Employer: 
+<input type="text" name="employer" />
+
+<br />
+<br />
+
+
+<!--LOCATION-->
+<!-- city -->
+City: 
+<input type="text" name="city" />
+
+<!-- state -->
+<span id="statespan">
+    State: 
+    <input type="text" name="state" maxlength=2 size=2 onblur="this.value=this.value.toUpperCase()"/>
+        <!--make it capital letters-->
+</span>
+
+<!-- if not in the U.S. -->
+<span id="countryspan" class="hide">
+    Country: 
+    <input type="text" name="country" />
+</span>
+
+<!-- in the U.S. -->
+<input type="checkbox" id="isUS" checked="yes"
+       onclick="vistoggle('countryspan', 'statespan', checked)" />
+<label for="isUS">in the U.S.</label>
+    <!--if checked="no" show country-->
+<br />
+<br />
+
+
+<!--DURATION-->
+<!-- start date (month year) -->
+<span id="start_date">
+Start date: 
+<!--months-->       
+    <select name="startmonth">
+        <option value="default">Select month</option>
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+        <option value="Mar">March</option>
+        <option value="Apr">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="Aug">August</option>
+        <option value="Sep">September</option>
+        <option value="Oct">October</option>
+        <option value="Nov">November</option>
+        <option value="Dec">December</option>
+    </select>
+    
+    <input type="text" name="startyear" maxlength=4 size=4 />
+</span>
+
+<!-- end date (month year) -->
+<span id="emptyspan"></span>
+<span id="end_date" class="hide">
+End date: 
+<!--months-->
+    <select name="endmonth">
+        <option value="default">Select month</option>
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+        <option value="Mar">March</option>
+        <option value="Apr">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="Aug">August</option>
+        <option value="Sep">September</option>
+        <option value="Oct">October</option>
+        <option value="Nov">November</option>
+        <option value="Dec">December</option>
+    </select>
+    
+    <input type="text" name="endyear" maxlength=4 size=4 />
+</span>
+
+<input type="checkbox" id="isCurrent" checked="true"
+       onclick="vistoggle('end_date', 'emptyspan', checked)" />
+<label for="isCurrent">current position</label>
+
+<br />
+<br />
+
+<!--DESCRIPTION-->
+<!-- duties -->
+Duties: <br /><textarea name="duty"></textarea>
+
+
+<!-- <span id="moreduty">[+]</span>
+    <!--add textarea-->
+
+    
+<br />
+<br />
+
+<!-- reset and submit -->
+<input type="reset" value="Start over"/>
+<input type="button" value="New work experience" onclick="noEmpty()"/>
+
+
+</form>
+
+<div id="result">
+</div>
+</body>
+</html>
