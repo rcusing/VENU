@@ -1,0 +1,1346 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../rough_flow_diagram_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:166px;
+    top:330px;
+    width:210px;
+    height:180px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:216px;
+    height:186px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:82px;
+    width:206px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:166px;
+    top:330px;
+    width:210px;
+    height:180px
+}
+
+.u2_original {
+    background-image: url('../rough_flow_diagram_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:91px;
+    top:683px;
+    width:140px;
+    height:190px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:196px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:87px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:91px;
+    top:683px;
+    width:140px;
+    height:190px
+}
+
+.u4_original {
+    background-image: url('../rough_flow_diagram_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:184px;
+    top:2px;
+    width:172px;
+    height:60px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:178px;
+    height:66px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:168px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:184px;
+    top:2px;
+    width:172px;
+    height:60px
+}
+
+.u6_original {
+    background-image: url('../rough_flow_diagram_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:201px;
+    top:233px;
+    width:140px;
+    height:60px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:66px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:136px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:201px;
+    top:233px;
+    width:140px;
+    height:60px
+}
+
+.u8_original {
+    background-image: url('../rough_flow_diagram_files/u6_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:381px;
+    top:233px;
+    width:140px;
+    height:60px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:66px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:381px;
+    top:233px;
+    width:140px;
+    height:60px
+}
+
+.u10_original {
+    background-image: url('../rough_flow_diagram_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:111px;
+    top:777px;
+    width:101px;
+    height:40px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:107px;
+    height:46px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:97px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:111px;
+    top:777px;
+    width:101px;
+    height:40px
+}
+
+.u12_original {
+    background-image: url('../rough_flow_diagram_files/u12_original.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:221px;
+    top:90px;
+    width:100px;
+    height:60px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:221px;
+    top:90px;
+    width:100px;
+    height:60px
+}
+
+.u14_original {
+    background-image: url('../rough_flow_diagram_files/u12_original.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:111px;
+    top:570px;
+    width:100px;
+    height:60px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:111px;
+    top:570px;
+    width:100px;
+    height:60px
+}
+
+.u16_original {
+    background-image: url('../rough_flow_diagram_files/u16_original.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:31px;
+    top:193px;
+    width:120px;
+    height:40px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:116px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:31px;
+    top:193px;
+    width:120px;
+    height:40px
+}
+
+.u18_original {
+    background-image: url('../rough_flow_diagram_files/u18_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:31px;
+    top:233px;
+    width:120px;
+    height:60px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:66px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:116px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:31px;
+    top:233px;
+    width:120px;
+    height:60px
+}
+
+.u20_original {
+    background-image: url('../rough_flow_diagram_files/u20_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:201px;
+    top:193px;
+    width:140px;
+    height:40px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:46px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:201px;
+    top:193px;
+    width:140px;
+    height:40px
+}
+
+.u22_original {
+    background-image: url('../rough_flow_diagram_files/u20_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:381px;
+    top:193px;
+    width:140px;
+    height:40px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:46px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:381px;
+    top:193px;
+    width:140px;
+    height:40px
+}
+
+.u24_original {
+    background-image: url('../rough_flow_diagram_files/u24_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:111px;
+    top:742px;
+    width:100px;
+    height:29px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:35px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:111px;
+    top:742px;
+    width:100px;
+    height:29px
+}
+
+.u26_original {
+    background-image: url('../rough_flow_diagram_files/u26_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:111px;
+    top:823px;
+    width:100px;
+    height:30px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:111px;
+    top:823px;
+    width:100px;
+    height:30px
+}
+
+.u28_original {
+    background-image: url('../rough_flow_diagram_files/u26_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:111px;
+    top:706px;
+    width:100px;
+    height:30px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:111px;
+    top:706px;
+    width:100px;
+    height:30px
+}
+
+.u30_original {
+    background-image: url('../rough_flow_diagram_files/u30_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:166px;
+    top:390px;
+    width:105px;
+    height:60px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:111px;
+    height:66px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:166px;
+    top:390px;
+    width:105px;
+    height:60px
+}
+
+.u32_original {
+    background-image: url('../rough_flow_diagram_files/u30_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:271px;
+    top:390px;
+    width:105px;
+    height:60px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:111px;
+    height:66px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:271px;
+    top:390px;
+    width:105px;
+    height:60px
+}
+
+.u34_original {
+    background-image: url('../rough_flow_diagram_files/u34_original.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:311px;
+    top:682px;
+    width:150px;
+    height:190px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:196px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:87px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:311px;
+    top:682px;
+    width:150px;
+    height:190px
+}
+
+.u36_original {
+    background-image: url('../rough_flow_diagram_files/u36_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:331px;
+    top:749px;
+    width:110px;
+    height:30px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:331px;
+    top:749px;
+    width:110px;
+    height:30px
+}
+
+.u38_original {
+    background-image: url('../rough_flow_diagram_files/u38_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:331px;
+    top:702px;
+    width:110px;
+    height:40px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:46px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:106px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:331px;
+    top:702px;
+    width:110px;
+    height:40px
+}
+
+.u40_original {
+    background-image: url('../rough_flow_diagram_files/u40_original.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:331px;
+    top:786px;
+    width:110px;
+    height:29px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:35px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:331px;
+    top:786px;
+    width:110px;
+    height:29px
+}
+
+.u42_original {
+    background-image: url('../rough_flow_diagram_files/u40_original.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:331px;
+    top:822px;
+    width:110px;
+    height:29px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:35px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:331px;
+    top:822px;
+    width:110px;
+    height:29px
+}
+
+.u44c0 {
+    background-image: url('../rough_flow_diagram_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:261px;
+    top:146px;
+    width:20px;
+    height:57px;
+}
+
+.u45 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../rough_flow_diagram_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:81px;
+    top:110px;
+    width:144px;
+    height:20px;
+}
+
+.u46c1 {
+    background-image: url('../rough_flow_diagram_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:81px;
+    top:110px;
+    width:20px;
+    height:87px;
+}
+
+.u47 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48c0 {
+    background-image: url('../rough_flow_diagram_files/u48c0.png');
+}
+
+.u48c0 {
+    position:absolute;
+    left:317px;
+    top:110px;
+    width:144px;
+    height:20px;
+}
+
+.u48c1 {
+    background-image: url('../rough_flow_diagram_files/u48c1.png');
+}
+
+.u48c1 {
+    position:absolute;
+    left:441px;
+    top:110px;
+    width:20px;
+    height:87px;
+}
+
+.u49 {
+    position:absolute;
+    left:52px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50c0 {
+    background-image: url('../rough_flow_diagram_files/u50c0.png');
+}
+
+.u50c0 {
+    position:absolute;
+    left:151px;
+    top:626px;
+    width:20px;
+    height:67px;
+}
+
+.u51 {
+    position:absolute;
+    left:-50px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52c0 {
+    background-image: url('../rough_flow_diagram_files/u52c0.png');
+}
+
+.u52c0 {
+    position:absolute;
+    left:376px;
+    top:626px;
+    width:20px;
+    height:66px;
+}
+
+.u53 {
+    position:absolute;
+    left:-50px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_original {
+    background-image: url('../rough_flow_diagram_files/u12_original.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:336px;
+    top:570px;
+    width:100px;
+    height:60px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:336px;
+    top:570px;
+    width:100px;
+    height:60px
+}
+
+.u56c0 {
+    background-image: url('../rough_flow_diagram_files/u56c0.png');
+}
+
+.u56c0 {
+    position:absolute;
+    left:81px;
+    top:289px;
+    width:20px;
+    height:141px;
+}
+
+.u56c1 {
+    background-image: url('../rough_flow_diagram_files/u56c1.png');
+}
+
+.u56c1 {
+    position:absolute;
+    left:81px;
+    top:410px;
+    width:89px;
+    height:20px;
+}
+
+.u57 {
+    position:absolute;
+    left:-50px;
+    top:93px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58c0 {
+    background-image: url('../rough_flow_diagram_files/u58c0.png');
+}
+
+.u58c0 {
+    position:absolute;
+    left:261px;
+    top:289px;
+    width:20px;
+    height:51px;
+}
+
+.u59 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60c0 {
+    background-image: url('../rough_flow_diagram_files/u60c0.png');
+}
+
+.u60c0 {
+    position:absolute;
+    left:441px;
+    top:289px;
+    width:20px;
+    height:141px;
+}
+
+.u60c1 {
+    background-image: url('../rough_flow_diagram_files/u60c1.png');
+}
+
+.u60c1 {
+    position:absolute;
+    left:372px;
+    top:410px;
+    width:89px;
+    height:20px;
+}
+
+.u61 {
+    position:absolute;
+    left:25px;
+    top:93px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62c0 {
+    background-image: url('../rough_flow_diagram_files/u62c0.png');
+}
+
+.u62c0 {
+    position:absolute;
+    left:261px;
+    top:506px;
+    width:20px;
+    height:64px;
+}
+
+.u62c1 {
+    background-image: url('../rough_flow_diagram_files/u62c1.png');
+}
+
+.u62c1 {
+    position:absolute;
+    left:151px;
+    top:550px;
+    width:130px;
+    height:20px;
+}
+
+.u62c2 {
+    background-image: url('../rough_flow_diagram_files/u62c2.png');
+}
+
+.u62c2 {
+    position:absolute;
+    left:151px;
+    top:550px;
+    width:20px;
+    height:24px;
+}
+
+.u63 {
+    position:absolute;
+    left:25px;
+    top:42px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64c0 {
+    background-image: url('../rough_flow_diagram_files/u64c0.png');
+}
+
+.u64c0 {
+    position:absolute;
+    left:261px;
+    top:506px;
+    width:20px;
+    height:64px;
+}
+
+.u64c1 {
+    background-image: url('../rough_flow_diagram_files/u64c1.png');
+}
+
+.u64c1 {
+    position:absolute;
+    left:261px;
+    top:550px;
+    width:135px;
+    height:20px;
+}
+
+.u64c2 {
+    background-image: url('../rough_flow_diagram_files/u64c2.png');
+}
+
+.u64c2 {
+    position:absolute;
+    left:376px;
+    top:550px;
+    width:20px;
+    height:24px;
+}
+
+.u65 {
+    position:absolute;
+    left:-12px;
+    top:42px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
