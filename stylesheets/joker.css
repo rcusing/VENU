@@ -13,7 +13,7 @@
 
 #menu{
     height:250px;
-    width:790px;
+    width:805px;
     position:relative;
    /* border-top-left-radius:3px;
     border-top-right-radius:3px;
@@ -27,12 +27,22 @@
 
 
 }
-#header_logo {
+
+#logo{
+    height:160px;
+    width:567px;
+    background-color:white;
     position:absolute;
     left:350px;
-    top:67px;
+    top:90px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
+}
+
+#header_logo {
+    position:absolute;
+    bottom:0;
+    right:0;
 }
 #middle{
     background-color:#5b5b5b;
@@ -43,6 +53,7 @@
 
 }
 #map_area {
+    position:relative;
     height:500px;
     width:900px;
 
@@ -53,6 +64,12 @@
     border-width:15px;
     border-style:solid;
     border-radius:2px;
+}
 
-
+#map{
+    border-color:#5b5b5b;
+    border-style:solid;
+    border-width:20px;
+    position:absolute;
+    right:130px
 }

@@ -3,15 +3,14 @@
     width:970px;
     margin:auto;
     background-color:#11466F;
-    border-top-left-radius:3px;
-    border-top-right-radius:3px;
+    border-radius:5px;
 }
 
 #menu{
     height:250px;
-    width:970px;
     position:relative;
     background-color:#11466F;
+    border-radius:5px;
 }
 
 #logo{

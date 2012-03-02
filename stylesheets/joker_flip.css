@@ -27,13 +27,23 @@
 
 
 }
-#header_logo {
+#logo{
+    height:160px;
+    width:567px;
+    background-color:white;
     position:absolute;
     left:350px;
-    top:67px;
+    top:90px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }
+
+#header_logo {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
 #middle{
     background-color:#5884a9;
     height:500px;
@@ -55,4 +65,9 @@
     border-radius:2px;
 
 
+}
+
+#map{
+    position:absolute;
+    right:180px
 }

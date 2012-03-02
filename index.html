@@ -5,40 +5,72 @@
     <meta name="description" content="an interactive resource for concert-goers in San Diego">
     <meta name="author" content="Denny Tang, Justin Wright, Rachel Cusing, Richard Chen, Samir Mathur">
 
-    <!--  jQuery libraries http://jquery.com/ -->
+    <!--  jQuery library and plug-ins http://jquery.com/ -->
     <script src="javascripts/jquery-1.7.1.min.js"></script>
     <script src="javascripts/jquery.easyAccordion.js"></script>
 
+    <!-- javascripts -->
+    <script src="javascripts/easyAccordion.js"></script>
+
     <!-- stylesheets -->
-    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/tab_right.css" />
+    <link rel="stylesheet" href="stylesheets/easyAccordion.css">
 </head>
 
 <body>
 <div id="container">
     <div id="main">
         <div id="menu">
+            <div id="logo">
             <img id="header_logo" src="images/header_logo.png" />
+            </div>
         </div><!-- end of menu -->
-
+        <div id="middle"></div>
         <div id="map_area">
+            <img id="map" src="images/map_530x500.png" />
+
         </div><!-- end of map -->
     </div><!-- end of main -->
 
 
-    <footer>
-        <div id="contact">
+    <div id="footer_accordion">
+        <dl>
+        <dt>
+            Contact Us</dt>
+            <dd><div id="contact_form">
+            <form id="contact">
+                Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                Your message (required):
+                <textarea name="message" rows="5" cols="25" placeholder="So, what's up?"></textarea>
+                <input type="image" alt="Send"/>
+            </form>
+            </div></dd><!-- end of contact -->
 
-        </div><!-- end of contact -->
-        <div id="form">
+        <dt>
+            Add a Venue</dt>
+        <dd><div id="request">
+            <form id="add_venue">
+                Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                    Venue name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                    Venue URL (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                    Your message:
+                    <textarea name="message" rows="5" cols="25" placeholder="Tell us why this venue is awesome."></textarea>
+                <input type="image" alt="Submit Request" />
 
-        </div><!-- end of form -->
-        <div id="about">
+            </form>
+        </div></dd><!-- end of form -->
 
-        </div><!-- end of about-->
-    </footer>
+        <dt class="active">
+            About Us</dt>
+        <dd class="active"><div id="about">
+            Team VENU
+        </div></dd><!-- end of about-->
+        </dl>
+    </div>
 </div><!-- end of container -->
 
-lalala wheeee
 
 </body>
 </html>

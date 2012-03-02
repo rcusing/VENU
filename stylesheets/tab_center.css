@@ -3,15 +3,15 @@
     width:970px;
     margin:auto;
     background-color:#11466F;
-    border-top-left-radius:3px;
-    border-top-right-radius:3px;
+    border-radius:5px;
 }
 
 #menu{
     height:250px;
-    width:970px;
     position:relative;
     background-color:#11466F;
+
+    border-radius:5px;
 }
 
 #logo{
@@ -19,7 +19,7 @@
     width:567px;
     background-color:white;
     position:absolute;
-    right:15px;
+    right:200px;
     top:90px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
@@ -41,9 +41,11 @@
     border-color:white;
     border-width:30px;
     border-style:solid;
-    border-radius:20px 0px 20px 20px;
+    border-radius:5px;
 
     text-align:right;
 }
+
+
 
 
