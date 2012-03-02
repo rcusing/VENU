@@ -3,7 +3,7 @@
     width:970px;
     height:750px;
     margin:auto;
-    background-color:#11466F;
+    background-color:#5b5b5b;
     /*border-style:solid;
     border-color:#04346C;
     border-width:20px;*/
@@ -23,18 +23,25 @@
     border-radius:50px;
 
     http://colorschemedesigner.com/#3C11Tw0w0w0w0*/
-    /*background-color:#8c8984;*/
+    background-color:#5884a9;
 
 
 }
 #header_logo {
     position:absolute;
-    left:355px;
-    top:90px;
+    left:350px;
+    top:67px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }
+#middle{
+    background-color:#5884a9;
+    height:500px;
+    width:20px;
+    margin:auto;
+    position:absolute;
 
+}
 #map_area {
     height:500px;
     width:900px;
