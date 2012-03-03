@@ -54,11 +54,28 @@ body{
     height:500px;
     width:530px;
     position:relative;
+    top:-505px;
+    left:350px;
 }
 
-#venue_mockup{
-    height:100px;
-    width:100px;
+#venue_mockup1{
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}
+
+#venue_mockup2{
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
 }
 
 footer{
