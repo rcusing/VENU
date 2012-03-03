@@ -1,0 +1,75 @@
+#container{
+    position:relative;
+    width:970px;
+    height:750px;
+    margin:auto;
+    background-color:#5884a9;
+    /*border-style:solid;
+    border-color:#04346C;
+    border-width:20px;*/
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+#menu{
+    height:250px;
+    width:805px;
+    position:relative;
+   /* border-top-left-radius:3px;
+    border-top-right-radius:3px;
+
+    -moz-border-radius:3px;
+    /*-moz-border-radius:50px;
+    border-radius:50px;
+
+    http://colorschemedesigner.com/#3C11Tw0w0w0w0*/
+    background-color:#5b5b5b;
+
+
+}
+
+#logo{
+    height:160px;
+    width:567px;
+    background-color:white;
+    position:absolute;
+    left:350px;
+    top:90px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+#header_logo {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#middle{
+    background-color:#5b5b5b;
+    height:500px;
+    width:20px;
+    margin:auto;
+    position:absolute;
+
+}
+#map_area {
+    position:relative;
+    height:500px;
+    width:900px;
+
+    background-color:#5884a9;
+    margin:auto;
+
+    border-color:white;
+    border-width:15px;
+    border-style:solid;
+    border-radius:2px;
+}
+
+#map{
+    border-color:#5b5b5b;
+    border-style:solid;
+    border-width:20px;
+    position:absolute;
+    right:130px
+}

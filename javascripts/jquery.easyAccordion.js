@@ -40,16 +40,16 @@
 		
 		// -------- Fix some weird cross-browser issues due to the CSS rotation -------------------------------------
 
-		if (jQuery.browser.safari){ var dtTop = (dlHeight-dtWidth)/2; var dtOffset = -dtTop;  /* Safari and Chrome */ }
-		if (jQuery.browser.mozilla){ var dtTop = dlHeight - 20; var dtOffset = - 20; /* FF */ }
-		if (jQuery.browser.msie){ var dtTop = 0; var dtOffset = 0; /* IE */ }
+		if (jQuery.browser.webkit){  dtTop = (dlHeight-dtWidth)/2;  dtOffset = -dtTop;  /* Safari and Chrome */ }
+		else if (jQuery.browser.mozilla){  dtTop = dlHeight - 20;  dtOffset = - 20; /* FF */ }
+	    else if (jQuery.browser.msie) {  dtTop = 0;  dtOffset = 0; /* IE */ }
 		
 		
 		// -------- Getting things ready ------------------------------------------------------------------------------
 		
 		var f = 1;
 		jQuery(this).find('dt').each(function(){
-			jQuery(this).css({'width':dtHeight,'top':dtTop,'margin-left':dtOffset});	
+			jQuery(this).css({'width':dtHeight,'top':dtTop,'margin-left':dtOffset});
 			if(settings.slideNum == true){
 				jQuery('<span class="slide-number">'+0+f+'</span>').appendTo(this);
 				if(jQuery.browser.msie){	

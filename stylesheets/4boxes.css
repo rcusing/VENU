@@ -1,0 +1,65 @@
+#container{
+    position:relative;
+    width:970px;
+    min-height: 1210px;
+    margin:auto;
+    background-color:#11466F;
+    border-radius:5px;
+}
+
+#menu{
+    height:250px;
+    position:relative;
+    background-color:#11466F;
+    border-radius:5px;
+}
+
+#logo{
+    height:160px;
+    width:567px;
+    background-color:white;
+    position:absolute;
+    right:15px;
+    top:90px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+#header_logo{
+    position:absolute;
+    bottom:0px;
+    right:2px;
+}
+
+#map_area {
+    height:500px;
+    width:880px;
+    margin:auto;
+
+    background-color:#5b5b5b;
+
+    border-color:white;
+    border-width:30px;
+    border-style:solid;
+    border-radius:20px 0 20px 20px;
+
+    text-align:right;
+}
+
+footer{
+    height:300px;
+    width:900px;
+    margin:50px auto 50px auto;
+}
+
+.footer{
+    width:260px;
+    height:300px;
+    background-color:#ffffff;
+    float:left;
+    margin-right:10px;
+    border-style:solid;
+    border-color:#5884a9;
+    border-width:15px;
+    border-radius:15px;
+}
