@@ -1,0 +1,112 @@
+#container{
+    position:relative;
+    width:970px;
+    margin:auto auto 0px auto;
+    background-color:#11466F;
+    border-radius:5px;
+}
+
+#menu{
+    height:250px;
+    position:relative;
+    background-color:#11466F;
+    border-radius:5px;
+}
+
+#logo{
+    height:160px;
+    width:567px;
+    background-color:white;
+    position:absolute;
+    right:15px;
+    top:90px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+#header_logo{
+    position:absolute;
+    bottom:0px;
+    right:2px;
+}
+
+#map_area {
+    height:500px;
+    width:880px;
+    margin:auto;
+
+    background-color:#5b5b5b;
+
+    border-color:white;
+    border-width:30px;
+    border-style:solid;
+    border-radius:20px 0 20px 20px;
+
+    text-align:right;
+}
+
+footer{
+    height:300px;
+    width:900px;
+    margin:0px auto 50px auto;
+
+}
+
+.tabs {
+    list-style:none;
+    text-align:center;
+    margin:0px;
+    position:fixed;
+    bottom:0;
+}
+
+.tabs li{
+    height:50px;
+    width:100px;
+    float:left;
+    background-color:#ffffff;
+    border-width:0px 5px 5px 5px;
+    border-style:solid;
+    border-color:white;
+    border-radius:0px 0px 20px 20px;
+    margin-right:10px;
+
+}
+
+.tabs li:hover{
+    background-color:#5884a9;
+}
+
+.tabs li ul{
+    list-style:none;
+    position:relative;
+}
+
+.tabs li ul li{
+    position:absolute;
+    display:none;
+    left:0px;
+    top:-2px;
+}
+
+.tab{
+    text-decoration:none;
+    font-family:"arial", verdana, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#5b5b5b;
+    margin-top:20px;
+}
+
+
+.footer{
+    width:260px;
+    height:300px;
+    background-color:#ffffff;
+    float:left;
+    margin-right:10px;
+    border-style:solid;
+    border-color:#5884a9;
+    border-width:15px;
+    border-radius:15px;
+}

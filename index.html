@@ -13,7 +13,7 @@
     <script src="javascripts/easyAccordion.js"></script>
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="stylesheets/tab_right.css" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
     <link rel="stylesheet" href="stylesheets/easyAccordion.css">
 </head>
 
@@ -21,6 +21,7 @@
 <div id="container">
     <div id="main">
         <div id="menu">
+
             <div id="logo">
             <img id="header_logo" src="images/header_logo.png" />
             </div>
@@ -32,43 +33,62 @@
         </div><!-- end of map -->
     </div><!-- end of main -->
 
+    <footer>
+        <!--<div class="footer_tab" id="contact_tab">Contact Us</div>
+        <div class="footer_tab" id="request_tab">Add a Venue</div>
+        <div class="footer_tab" id="about_tab">About VENU</div>-->
+        <ul class="tabs">
+            <li><p class="tab"
+                    onclick="document.getElementById('contact_form').style.display='block'">
+                <!--<a class="tab" href="#contact_form">-->Contact Us</a></p></p>
+                <ul>
+                    <li><div class="footer" id="contact_form">
+                        <h3>Contact Us</h3>
+                        <form id="contact">
+                            Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                            Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                            Your message (required):
+                            <textarea name="message" rows="5" cols="25" placeholder="So, what's up?"></textarea>
+                            <input type="image" alt="Send"/>
+                        </form>
+                    </div></li><!-- end of contact -->
+                </ul>
+            </li>
+            <li><p class="tab"><!--<a class="tab" href="#request_form">-->Add a Venue</a></p>
+                <ul>
+                    <li><div class="footer" id="request_form">
+                        <h3>Add a Venue</h3>
+                        <form id="add_venue">
+                            Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                            Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                            Venue name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
+                            Venue URL (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
+                            Your message:
+                            <textarea name="message" rows="5" cols="25" placeholder="Tell us why this venue is awesome."></textarea>
+                            <input type="image" alt="Submit Request" />
 
-    <div id="footer_accordion">
-        <dl>
-        <dt>
-            Contact Us</dt>
-            <dd><div id="contact_form">
-            <form id="contact">
-                Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                Your message (required):
-                <textarea name="message" rows="5" cols="25" placeholder="So, what's up?"></textarea>
-                <input type="image" alt="Send"/>
-            </form>
-            </div></dd><!-- end of contact -->
+                        </form>
+                    </div></li><!-- end of request form -->
+                </ul>
+            </li>
+            <li><p><a class="tab" href="#about">About VENU</a></p>
+                <ul>
+                    <li><div class="footer" id="about">
+                        <h3>
+                            About Us</h3>
+                        Team VENU
+                    </div><!-- end of about--></li>
+                </ul>
+            </li>
+        </ul>
 
-        <dt>
-            Add a Venue</dt>
-        <dd><div id="request">
-            <form id="add_venue">
-                Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                    Venue name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                    Venue URL (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                    Your message:
-                    <textarea name="message" rows="5" cols="25" placeholder="Tell us why this venue is awesome."></textarea>
-                <input type="image" alt="Submit Request" />
 
-            </form>
-        </div></dd><!-- end of form -->
 
-        <dt class="active">
-            About Us</dt>
-        <dd class="active"><div id="about">
-            Team VENU
-        </div></dd><!-- end of about-->
-        </dl>
-    </div>
+
+
+
+
+    </footer>
 </div><!-- end of container -->
 
 
