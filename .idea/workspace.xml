@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e05c34b6-eb4a-41e0-a6cf-0fc0d764bd9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes" afterPath="$PROJECT_DIR$/notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-    </list>
+    <list default="true" id="e05c34b6-eb4a-41e0-a6cf-0fc0d764bd9a" name="Default" comment="" />
     <ignored path="VENU.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="37" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.17398119">
+            <state line="34" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-4.923077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="22" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+            <state line="68" column="22" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.37223044">
               <folding />
             </state>
           </provider>
@@ -262,16 +257,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="22" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+        <state line="34" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-4.923077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.17398119">
+        <state line="68" column="22" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.37223044">
           <folding />
         </state>
       </provider>
