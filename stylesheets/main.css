@@ -37,7 +37,7 @@ body{
     border-color:#11466F;
 }
 
-#map_area {                                     /*this is the div holding the map*/
+#map-area {                                     /*this is the div holding the map*/
     height:500px;
     width:880px;
     margin:auto;
