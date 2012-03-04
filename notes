@@ -31,7 +31,7 @@ TASKS
 BUTTON
     mouseover
         increase button size
-        display
+        (new idea) display image of venue's front door
         draw white box on map or create new div element
         fill white box w/ HTML
     mouseout

@@ -55,13 +55,21 @@ body{
     z-index:1;
 }
 
-.onmap{
+#onmap{
     height:500px;
     width:530px;
     position:absolute;
     top:0px;
-    left:344px;
+    left:350px;
 }
+
+/*#buttons{
+    z-index:2;
+}
+
+#venues{
+    z-index:1;
+}*/
 
 .mockup_button{
     height:35px;
@@ -75,27 +83,53 @@ body{
 }
 
 #mockup_button1{
-    left:312px;
+    left:306px;
     top:140px;
 }
 
 #mockup_button2{
-    left:455px;
+    left:449px;
     top:273px;
 }
 
 #mockup_button3{
-    left:175px;
+    left:169px;
     top:175px;
 }
 
 #mockup_button4{
-    left:225px;
+    left:219px;
     top:450px;
 }
 
+#mockup_soma{
+    position:absolute;
+    height:300px;
+    width:200px;
+    background-color:white;
+    text-align:left;
+    border-radius:20px;
+}
 
+#mockup_soma img{
+    border-radius:20px;
+}
 
+#social-icons ul{
+    list-style-type:none;
+    position:absolute;
+    right:0;
+    top:0;
+    margin:10px 0 0 0;
+}
+
+#gmaps{
+    text-decoration:none;
+}
+
+#gmaps:hover{
+    font-style:italic;
+}
 
 /*
 

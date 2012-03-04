@@ -8,9 +8,10 @@
 
     <!-- javascripts
     <script src="javascripts/temp.js"></script>-->
+    <script src="javascripts/mockup.js"></script>
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/mockup.css" />
 </head>
 
 <body>
@@ -29,27 +30,45 @@
         <div id="map_area">
             <img id="map" src="images/map_530x500.png"  />
 
-            <div class="onmap" id="buttons">
+            <div id="onmap">
                 <img class="mockup_button" id="mockup_button1" src="images/button.png" />
                 <img class="mockup_button" id="mockup_button2" src="images/button.png" />
                 <img class="mockup_button" id="mockup_button3" src="images/button.png" />
                 <img class="mockup_button" id="mockup_button4" src="images/button.png" />
+
+                <div id="mockup_soma">
+                    <!--the following image downloaded from http://www.lo-cal.com/venues/soma/-->
+                        <img src="images/soma.jpg" alt="Soma website link" />
+                        <a href="http://www.somasandiego.com"></a>
+                    <!--the following icons downloaded from iconfinder.com-->
+                    <div id="social-icons">
+                        <ul>
+                        <li><a href="http://www.facebook.com/somasd">
+                            <img src="images/fb.png" alt="Soma Facebook link"/></a></li>
+                        <li><a href="http://www.twitter.com/somasd">
+                            <img src="images/twitter.png" alt="Soma Twitter link" /></a></li>
+                        <li><a href="http://www.myspace.com/somasd">
+                            <img src="images/myspace.png" alt="Soma Myspace link" /></a></li>
+                        </ul>
+                    </div>
+                    <a id="gmaps" href="http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695"
+                       onmouseover="gMaps()"
+                       onmouseout="address()">
+                        <p>3350 Sports Arena Boulevard</p></a>
+                    <p>All ages</p>
+                    <p>[Midway District]</p>
+                    <p>619.226.7662</p>
+                    <a href="#"><p>Tix</p></a>
+                </div>
+
             </div>
 
-            <!--
-            <div class="onmap" id="venues">
-                <div id="mockup_venue1">
-                    <h3>Venue Name/Logo</h3>
-                    <p>Age range</p>
-                    <p>Neighborhood</p>
-                    <p>Address</p>
-                    <p>Box office #</p>
-                    <a href="#"><p>Website</p></a>
-                    <a href="#"><p>Tix</p></a>
-                    <a href="#"><p>Twitter</p></a>
-                    <a href="#"><p>Facebook</p></a>
-                </div>
-                <div id="mockup_venue2">
+
+
+
+
+
+                <!--<div id="mockup_venue2">
                     <h3>Venue Name/Logo</h3>
                     <p>Age range</p>
                     <p>Neighborhood</p>
