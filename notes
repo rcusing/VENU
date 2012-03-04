@@ -12,6 +12,9 @@ stacking contexts for making the logo disappear under the background
 
 items in the same class get put on top of each other?
 
+image mapping is useful for linking separate parts of an image to different sources
+it may not be useful for our purposes...
+
 map stacking context                            eventually
 #maparea - position: relative, root-context       #maparea
     #map - position:                                  #map
