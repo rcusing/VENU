@@ -53,8 +53,6 @@ body{
 
 #map{
     z-index:1;
-    border-style:dotted;
-    border-color:red;
 }
 
 .onmap{
@@ -62,19 +60,21 @@ body{
     width:530px;
     position:absolute;
     top:0px;
-    border-style:dashed;
-    border-color:blue;
+    left:344px;
 }
 
-.button{
+.mockup_button{
     height:35px;
     width:35px;
+    position:absolute;
 }
 
-.button:hover{
+.mockup_button:hover{
     height:50px;
     width:50px
 }
+
+
 
 /*
 
