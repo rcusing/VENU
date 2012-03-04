@@ -6,10 +6,7 @@ body{
     position:relative;
     width:970px;
     margin:0 auto 0px auto;
-    /*border-color:#8f8f8f;#a29c8d
-    border-style:solid;
-    border-width:0 10px 10px;*/
-    border-radius:5px;
+    border-radius:10px;
     background-color:#ffffff;
 
 }
@@ -20,55 +17,142 @@ body{
     position:relative;
     background-color:#ffffff;
     border-top-left-radius:5px;
-    margin-bottom:15px;
-}
-
-/*#logo{
-    height:160px;
-    width:567px;
-    background-color:white;
-    position:absolute;
-    right:15px;
-    top:0px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius:20px;
-}*/
-
-#logo{
-    height:150px;
-    width:400px;
-    background-color:white;
-    border-radius:20px 0 0 20px;
-    position:absolute;
-    top:70px;
-    right:0px;
+    margin:auto auto 15px auto;
 }
 
 #header_logo{
-    margin-top:15px;
-    margin-left:5px;
-    margin-bottom:10px;
+    position:absolute;
+    top:70px;
+    right:2px;
 }
 
-#map_area {
+#accordion{
+    display:none;
+    height:225px;
+    width:970px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-style:solid;
+    border-color:#11466F;
+}
+
+#map_area {                                     /*this is the div holding the map*/
     height:500px;
     width:880px;
     margin:auto;
 
     background-color:#5b5b5b;
 
-    -webkit-box-shadow: -7px -7px 12px #BEBEBE;
-    /*border-style:outset;
-    border-width:10px;
-    border-color:#EEEEE2;
-
-    /*border-color:white;
-    border-width:30px;
-    border-style:solid;
-    border-radius:20px 0 20px 20px;*/
+    -webkit-box-shadow:-7px -7px 12px #BEBEBE;  /*Safari&Chrome*/
+    -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
 
     text-align:right;
+    position:relative;                         /*create stacking context*/
 }
+
+#map{
+    z-index:1;
+    border-style:dotted;
+    border-color:red;
+}
+
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0px;
+    border-style:dashed;
+    border-color:blue;
+}
+
+.button{
+    height:35px;
+    width:35px;
+}
+
+.button:hover{
+    height:50px;
+    width:50px
+}
+
+/*
+
+.mockup_button {
+    visibility:visible;
+}
+
+.mockup_button:hover{
+    visibility:hidden;
+}
+
+/*
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0;
+    left:350px;
+}
+
+#buttons{
+    z-index:2;
+    border-color:blue;
+    border-style:dashed;
+
+}
+
+/*.button:hover{
+    visibility:visible;
+}
+
+#mockup_button1 {
+    display:block;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button1:hover {
+    display:none;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button2{
+
+}
+
+#venues{
+    z-index:1;
+    border-color:red;
+    border-style:dotted;
+}
+
+#mockup_venue1 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}
+
+#mockup_venue2 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}*/
 
 footer{
     height:300px;

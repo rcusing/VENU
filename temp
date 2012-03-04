@@ -1,7 +1,115 @@
+<div id="map_area">
+            <img id="map" src="images/map_530x500.png"  />
+            <div class="onmap" id="buttons">
+                <div class="button" id="mockup_button1">
+                <img src="images/button.png" /></div>
+                <div class="button" id="mockup_button2">
+                    <img src="images/button.png" /></div>
+            </div>
+            <div class="onmap" id="venues">
+                <div id="mockup_venue1">
+                    <h3>Venue Name/Logo</h3>
+                    <p>Age range</p>
+                    <p>Neighborhood</p>
+                    <p>Address</p>
+                    <p>Box office #</p>
+                    <a href="#"><p>Website</p></a>
+                    <a href="#"><p>Tix</p></a>
+                    <a href="#"><p>Twitter</p></a>
+                    <a href="#"><p>Facebook</p></a>
+                </div>
+                <div id="mockup_venue2">
+                    <h3>Venue Name/Logo</h3>
+                    <p>Age range</p>
+                    <p>Neighborhood</p>
+                    <p>Address</p>
+                    <p>Box office #</p>
+                    <a href="#"><p>Website</p></a>
+                    <a href="#"><p>Tix</p></a>
+                    <a href="#"><p>Twitter</p></a>
+                    <a href="#"><p>Facebook</p></a>
+                </div>
+            </div>
 
-style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 46px; "
-style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 92px; "
+        </div><!-- end of map -->
 
-add in moz-border-radius?
+#map_area {                                     /*this is the div holding the map*/
+    height:500px;
+    width:880px;
+    margin:auto;
 
-css: rotate 90?
+    background-color:#5b5b5b;
+
+    -webkit-box-shadow:-7px -7px 12px #BEBEBE;  /*Safari&Chrome*/
+    -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
+
+    text-align:right;
+    position:relative;                          /*create stacking context*/
+}
+
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0;
+    left:350px;
+}
+
+#buttons{
+    z-index:2;
+    border-color:blue;
+    border-style:dashed;
+
+}
+
+/*.button:hover{
+    visibility:visible;
+}*/
+
+#mockup_button1 {
+    display:block;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button1:hover {
+    display:none;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button2{
+
+}
+
+#venues{
+    z-index:1;
+    border-color:red;
+    border-style:dotted;
+}
+
+#mockup_venue1 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}
+
+#mockup_venue2 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}

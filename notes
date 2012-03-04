@@ -1,0 +1,53 @@
+
+style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 46px; "
+style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 92px; "
+
+add in moz-border-radius?
+
+css: rotate 90?
+
+stacking contexts for making the logo disappear under the background
+    can i give the <body> element a position and z-index: 0?
+    or something.... hmm...
+
+
+map stacking context                            eventually
+#maparea - position: relative, root-context       #maparea
+    #map - position:                                  #map
+    #button                                             button: image-mapped
+    #venues                                             venue: image-mapped
+        #venue
+
+
+TASKS
+    just a button: illustrator, please, for scaling
+    get unconfused
+
+"dynamic" map elements
+BUTTON
+    mouseover
+        increase button size
+        display
+        draw white box on map or create new div element
+        fill white box w/ HTML
+    mouseout
+        if clicked = true, break
+        else, erase or hide white box
+
+    if click on button
+        draw white box on map
+        fill white box w/ HTML
+        keep it here
+            if click&drag on white box
+                move white box to user-specified coordinates
+        clicked = true
+
+    if click on reset button
+        erase everything
+
+
+mockup map elements
+BUTTON
+    map:hover
+        display big button
+
