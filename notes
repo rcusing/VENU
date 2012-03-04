@@ -10,6 +10,7 @@ stacking contexts for making the logo disappear under the background
     can i give the <body> element a position and z-index: 0?
     or something.... hmm...
 
+items in the same class get put on top of each other?
 
 map stacking context                            eventually
 #maparea - position: relative, root-context       #maparea
