@@ -20,7 +20,7 @@ map stacking context                            eventually
 
 
 TASKS
-    just a button: photoshop
+    just a button: illustrator, please, for scaling
     get unconfused
 
 "dynamic" map elements
@@ -45,4 +45,9 @@ BUTTON
     if click on reset button
         erase everything
 
+
+mockup map elements
+BUTTON
+    map:hover
+        display big button
 

@@ -48,9 +48,45 @@ body{
     -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
 
     text-align:right;
-    position:relative;                          /*create stacking context*/
+    position:relative;                         /*create stacking context*/
 }
 
+#map{
+    z-index:1;
+    border-style:dotted;
+    border-color:red;
+}
+
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0px;
+    border-style:dashed;
+    border-color:blue;
+}
+
+.button{
+    height:35px;
+    width:35px;
+}
+
+.button:hover{
+    height:50px;
+    width:50px
+}
+
+/*
+
+.mockup_button {
+    visibility:visible;
+}
+
+.mockup_button:hover{
+    visibility:hidden;
+}
+
+/*
 .onmap{
     height:500px;
     width:530px;
@@ -68,7 +104,7 @@ body{
 
 /*.button:hover{
     visibility:visible;
-}*/
+}
 
 #mockup_button1 {
     display:block;
@@ -116,7 +152,7 @@ body{
     width:310px;
     overflow:hidden;
     background-color:white;
-}
+}*/
 
 footer{
     height:300px;
