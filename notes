@@ -2,15 +2,22 @@
 style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 46px; "
 style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 92px; "
 
+logos and copyright infringement??
+
 add in moz-border-radius?
 
 css: rotate 90?
+
+consistent _ or -
 
 stacking contexts for making the logo disappear under the background
     can i give the <body> element a position and z-index: 0?
     or something.... hmm...
 
 items in the same class get put on top of each other?
+
+image mapping is useful for linking separate parts of an image to different sources
+it may not be useful for our purposes...
 
 map stacking context                            eventually
 #maparea - position: relative, root-context       #maparea
@@ -28,7 +35,7 @@ TASKS
 BUTTON
     mouseover
         increase button size
-        display
+        (new idea) display image of venue's front door
         draw white box on map or create new div element
         fill white box w/ HTML
     mouseout

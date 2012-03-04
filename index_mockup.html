@@ -8,9 +8,10 @@
 
     <!-- javascripts
     <script src="javascripts/temp.js"></script>-->
+    <script src="javascripts/mockup.js"></script>
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/mockup.css" />
 </head>
 
 <body>
@@ -19,26 +20,84 @@
         <div id="menu">
             <div id="logo">
             <img id="header_logo" src="images/header_logo.png" />
-            </div><!--end of logo-->
+            </div><!-- end of logo -->
             
-            <div id="accordion"><!--225x970px-->
-            </div><!--end of accordion-->
+            <div id="accordion"><!-- 225x970px -->
+            </div><!-- end of accordion -->
         </div><!-- end of menu -->
 
 
         <div id="map-area">
             <img id="map" src="images/map_530x500.png"  />
 
-            <div class="onmap" id="buttons">
-                <img class="mockup_button" id="mockup_button1" src="images/button.png" />
+            <div id="onmap">
+                <img class="mockup_button" id="mockup_button1" src="images/button.png"
+                        onmouseover="showSomaLogo()" onmouseout="hideSomaLogo()" onclick="showSoma()"/>
                 <img class="mockup_button" id="mockup_button2" src="images/button.png" />
                 <img class="mockup_button" id="mockup_button3" src="images/button.png" />
-                <img class="mockup_button" id="mockup_button4" src="images/button.png" />
+                <img class="mockup_button" id="mockup_button4" src="images/button.png"
+                        onmouseover="showHouseLogo()" onmouseout="hideHouseLogo()" />
+               
+                <div id="soma-logo">
+                <img src="images/soma_logo.png" />
+                </div>
+                
+                <div id="house-logo">
+                    <img src="images/house_logo.png" />
+                </div>
+
+                <div id="mockup_soma">
+                    <!-- the following image downloaded from http://www.lo-cal.com/venues/soma/ -->
+                        <img src="images/soma.jpg" alt="Soma main entrance" />
+                    <!-- the following icons downloaded from iconfinder.com -->
+                    <div id="social-icons">
+                        <ul>
+                        <li><a target="_blank" href="http://www.facebook.com/somasd">
+                            <img src="images/fb.png" alt="Soma Facebook link"/></a></li>
+                        <li><a target="_blank" href="http://www.twitter.com/somasd">
+                            <img src="images/twitter.png" alt="Soma Twitter link" /></a></li>
+                        <li><a target="_blank" href="http://www.myspace.com/somasd">
+                            <img src="images/myspace.png" alt="Soma Myspace link" /></a></li>
+                        </ul>
+                    </div>
+                    <div id="info">
+                        <div id="name" onmouseover="displayLink(this)" onmouseout="revertText(this)">
+                        <a id="venue-title" target="_blank" href="http://www.somasandiego.com">Soma</a>
+                        </div>
+                        
+                        <div id="address" onmouseover="displayLink(this)" onmouseout="revertText(this)">
+                        <a id="gmaps" target="_blank"
+                           href="http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695">
+                            3350 Sports Arena Boulevard</a></div>
+
+                        <ul id="venue-details">
+                            <li>[Midway District]</li>
+                            <li id="ages">All ages</li>
+                            <li><a href="https://tickets.somasandiego.com/" target="_blank">
+                                <img id="tix" src="images/ticket.png" alt="link to ticket site" /></a></li>
+                            <li id="ticketing">Box Office/Tix: 619.226.7662</li>
+
+
+                        </ul>
+                        
+                        <p>Show upcoming events</p>
+
+
+
+
+                        <!-- the following icon downloaded from iconarchive.com -->
+
+                    </div>
+                </div>
+
             </div>
 
-            <!--
-            <div class="onmap" id="venues">
-                <div id="mockup_venue1">
+
+
+
+
+
+                <!--<div id="mockup_venue2">
                     <h3>Venue Name/Logo</h3>
                     <p>Age range</p>
                     <p>Neighborhood</p>
@@ -49,18 +108,7 @@
                     <a href="#"><p>Twitter</p></a>
                     <a href="#"><p>Facebook</p></a>
                 </div>
-                <div id="mockup_venue2">
-                    <h3>Venue Name/Logo</h3>
-                    <p>Age range</p>
-                    <p>Neighborhood</p>
-                    <p>Address</p>
-                    <p>Box office #</p>
-                    <a href="#"><p>Website</p></a>
-                    <a href="#"><p>Tix</p></a>
-                    <a href="#"><p>Twitter</p></a>
-                    <a href="#"><p>Facebook</p></a>
-                </div>
-            </div>-->
+            </div> -->
 
         </div><!-- end of map -->
     </div><!-- end of main -->
