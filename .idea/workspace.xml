@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e05c34b6-eb4a-41e0-a6cf-0fc0d764bd9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes" />
-      <change type="DELETED" beforePath="C:\Users\Admin\VENU\temp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/map_crop.png" afterPath="$PROJECT_DIR$/images/map_crop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_resources.html" afterPath="$PROJECT_DIR$/project_resources.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes" afterPath="$PROJECT_DIR$/notes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
     </list>
     <ignored path="VENU.iws" />
@@ -30,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.19435737">
+            <state line="30" column="20" selection-start="871" selection-end="871" vertical-scroll-proportion="-8.692307">
               <folding />
             </state>
           </provider>
@@ -42,7 +38,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="14" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
+            <state line="64" column="19" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="notes" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
+            <state line="27" column="13" selection-start="791" selection-end="791" vertical-scroll-proportion="0.34711966">
               <folding />
             </state>
           </provider>
@@ -82,10 +78,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/project_resources.html" />
-        <option value="$PROJECT_DIR$/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/temp" />
-        <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/notes" />
       </list>
     </option>
   </component>
@@ -290,21 +286,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="14" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
+        <state line="64" column="19" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.19435737">
+        <state line="30" column="20" selection-start="871" selection-end="871" vertical-scroll-proportion="-8.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="791" selection-end="791" vertical-scroll-proportion="0.34711966">
           <folding />
         </state>
       </provider>

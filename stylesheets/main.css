@@ -48,17 +48,57 @@ body{
     -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
 
     text-align:right;
+    position:relative;                          /*create stacking context*/
 }
 
-#venues{
+.onmap{
     height:500px;
     width:530px;
-    position:relative;
-    top:-505px;
+    position:absolute;
+    top:0;
     left:350px;
 }
 
-#venue_mockup1{
+#buttons{
+    z-index:2;
+    border-color:blue;
+    border-style:dashed;
+
+}
+
+/*.button:hover{
+    visibility:visible;
+}*/
+
+#mockup_button1 {
+    display:block;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button1:hover {
+    display:none;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button2{
+
+}
+
+#venues{
+    z-index:1;
+    border-color:red;
+    border-style:dotted;
+}
+
+#mockup_venue1 {
     display:none;
     position:absolute;
     top:50px;
@@ -68,7 +108,7 @@ body{
     background-color:white;
 }
 
-#venue_mockup2{
+#mockup_venue2 {
     display:none;
     position:absolute;
     top:50px;
