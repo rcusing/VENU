@@ -10,7 +10,7 @@
 var logo = null;  //create object
 
 function moveLogo(){
-    logo.style.left = parseInt(logo.style.left)+1+'px'; //add 10px to left position
+    logo.style.left = parseInt(logo.style.left)+1+'px'; //add 1px to left position
     console.log(logo.style.left);
     setTimeout(moveLogo,20);
 }
