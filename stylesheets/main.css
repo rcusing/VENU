@@ -1,5 +1,7 @@
+/*****OVERALL PAGE*****/
 body{
     background-color:#11466F;
+    font-family:"arial", verdana, sans-serif;
 }
 
 #container{
@@ -11,6 +13,7 @@ body{
 
 }
 
+/*****MENU - TOP SECTION: SITE HEADER, EVENTS INFO*****/
 #menu{
     height:250px;
     width:940px;
@@ -37,6 +40,10 @@ body{
     border-color:#11466F;
 }
 
+/*****ACCORDION*****/
+
+
+/*****MAP AREA - MID SECTION: MAP*****/
 #map-area {                                     /*this is the div holding the map*/
     height:500px;
     width:880px;
@@ -55,14 +62,24 @@ body{
     z-index:1;
 }
 
-.onmap{
+/*****MAP AREA - MID SECTION: MAP CONTENT*****/
+#onmap {
     height:500px;
     width:530px;
     position:absolute;
     top:0px;
-    left:344px;
+    left:350px;
 }
 
+/*#buttons{
+    z-index:2;
+}
+
+#venues{
+    z-index:1;
+}*/
+
+/*****MAP CONTENT: BUTTONS*****/
 .mockup_button{
     height:35px;
     width:35px;
@@ -75,114 +92,199 @@ body{
 }
 
 #mockup_button1{
-    left:312px;
+    left:306px;
     top:140px;
 }
 
 #mockup_button2{
-    left:455px;
+    left:449px;
     top:273px;
 }
 
 #mockup_button3{
-    left:175px;
+    left:169px;
     top:175px;
 }
 
 #mockup_button4{
-    left:225px;
+    left:219px;
     top:450px;
 }
 
-
-
-
-/*
-
-.mockup_button {
-    visibility:visible;
-}
-
-.mockup_button:hover{
-    visibility:hidden;
-}
-
-/*
-.onmap{
-    height:500px;
-    width:530px;
+/*****MAP CONTENT: VENUE INFO (MOCKUP)*****/
+#soma-logo{
+    background-color:white;
+    width:100px;
+    height:42px;
+    padding:15px;
+    border-radius:20px;
     position:absolute;
+    left:333px;
+    top:82px;
+    display:none;
+
+}
+
+#house-logo{
+    background-color:white;
+    width:100px;
+    height:100px;
+    padding:15px;
+    border-radius:20px;
+    position:absolute;
+    top:336px;
+    left:110px;
+    display:none;
+
+}
+
+#mockup_soma{
+    position:absolute;
+    left:50px;
+    height:305px;
+    width:255px;
+    background-color:white;
+    text-align:left;
+    border-radius:20px;
+    display:none;
+    border-style:outset;
+    border-color:#5b5b5b;
+}
+
+#mockup_soma img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+
+#social-icons{
+    position:relative;
+    background-color:#5b5b5b;
+}
+
+#social-icons ul{
+    list-style-type:none;
+    position:absolute;
+    right:5px;;
     top:0;
-    left:350px;
+    padding:0;
 }
 
-#buttons{
-    z-index:2;
-    border-color:blue;
-    border-style:dashed;
-
+#info{
+    margin-left:10px;
 }
 
-/*.button:hover{
-    visibility:visible;
+#venue-title{
+    text-decoration:none;
+    font-size:14px;
+    color:#5884a9;
+    font-weight:bold;
 }
 
-#mockup_button1 {
-    display:block;
-    position:absolute;
-    top:155px;
-    left:150px;
-    height:60px;
-    width:65px;
+#gmaps{
+    text-decoration:none;
+    font-size:12px;
+    color:#5884a9;
+    font-weight:bold;
 }
 
-#mockup_button1:hover {
-    display:none;
-    position:absolute;
-    top:155px;
-    left:150px;
-    height:60px;
-    width:65px;
+#venue-details{
+    font-size:12px;
+    margin-top:0;
+    padding:0;
+    list-style-type:none;
 }
 
-#mockup_button2{
-
+#venue-details li{
+    margin-bottom:5px;
+    color:#5b5b5b;
 }
 
-#venues{
-    z-index:1;
-    border-color:red;
-    border-style:dotted;
+#scene{
+    padding-right:5px;
 }
 
-#mockup_venue1 {
-    display:none;
-    position:absolute;
-    top:50px;
-    height:320px;
-    width:310px;
-    overflow:hidden;
-    background-color:white;
+#ages{
+    font-style:italic;
+    padding-left:5px;
 }
 
-#mockup_venue2 {
-    display:none;
-    position:absolute;
-    top:50px;
-    height:320px;
-    width:310px;
-    overflow:hidden;
-    background-color:white;
-}*/
+#tix{
+    float:left;
+    margin-top:-3px;
+}
 
+#ticketing{
+    margin-top:10px;
+}
+
+#info p{
+    font-size:12px;
+    font-weight:bold;
+    color:#5884a9;
+}
+
+#info p:hover{
+    font-style:italic;
+}
+
+/*****FOOTER*****/
 footer{
     height:300px;
-    width:900px;
-    margin:0px auto 50px auto;
+    width:880px;
+    margin:50px auto 100px auto;
 
+    background-color:#5884a9;
 }
 
-.tabs {
+#footer_tabs{
+    list-style:none;
+    text-align:center;
+    position:absolute;
+    bottom:-60px;
+    left:5px;
+    margin:0;
+}
+
+#footer_tabs li{
+    height:55px;
+    width:100px;
+    float:left;
+    background-color:#ffffff;
+    border-style:solid;
+    border-width:0 5px 5px 5px;
+    border-color:white;
+    border-radius:0px 0px 20px 20px;
+    margin-right:10px;
+}
+
+#footer_tabs li:hover{
+    border-color:#5884a9;
+}
+
+.tab{
+    text-decoration:none;
+    font-family:"arial", verdana, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#5b5b5b;
+    margin-top:20px;
+}
+
+.footer{
+    width:260px;
+    height:300px;
+    background-color:#ffffff;
+    float:left;
+    margin-right:10px;
+    border-style:solid;
+    border-color:#5884a9;
+    border-width:15px;
+    border-radius:15px;
+}
+
+
+/*.tabs {
     list-style:none;
     text-align:center;
     margin:0px;
@@ -214,7 +316,7 @@ footer{
 
 .tabs li ul li{
     position:absolute;
-    display:none;
+    display:block;
     left:0px;
     top:-2px;
 }
@@ -239,4 +341,4 @@ footer{
     border-color:#5884a9;
     border-width:15px;
     border-radius:15px;
-}
+}*/
