@@ -144,8 +144,6 @@ body{
     text-align:left;
     border-radius:20px;
     display:none;
-    border-style:outset;
-    border-color:#5b5b5b;
 }
 
 #mockup_soma img{
@@ -337,7 +335,7 @@ footer{
 
 .tabs li ul li{
     position:absolute;
-    display:block;
+    display:none;
     left:0px;
     top:-2px;
 }
@@ -362,9 +360,4 @@ footer{
     border-color:#5884a9;
     border-width:15px;
     border-radius:15px;
-}
-
-#request_form{
-    position:relative;
-    z-index:2;
 }

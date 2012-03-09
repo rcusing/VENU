@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+
+    <link rel="stylesheet" href="stylesheets/mockup.css" />
+
+    <style>
+        #js_soma{
+            position:absolute;
+            left:400px;
+            height:305px;
+            width:255px;
+            background-color:white;
+            text-align:left;
+            border-radius:20px;
+            display:block;
+            border-style:outset;
+            border-color:#5b5b5b;
+        }
+
+        #js_soma img{
+            border-top-left-radius:20px;
+            border-top-right-radius:20px;
+
+            margin-bottom:5px;
+        }
+
+        #js_venue-title{
+            text-decoration:none;
+            font-size:14px;
+            color:#5884a9;
+            font-weight:bold;
+            margin-left:10px;
+        }
+
+        #js_gmaps {
+            color: #5884A9;
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+
+    <script>
+        function js_displayLink(thisDiv){
+            linkText = thisDiv.childNodes[0].childNodes[0];             //DOM object: TextNode (get the text of the <a> within this <div>)
+            linkLabel = linkText.textContent;                           //the actual string
+
+            linkURL = linkText.parentNode.attributes[1].textContent;    //URL string
+            if (linkURL.match("maps.google") != null){                  //address --> google maps
+                linkText.textContent = "Go to Google Maps";
+            }
+
+            else {                                                      //venue title --> site URL
+                linkText.textContent = linkURL.slice(11);
+            }
+
+            linkText.parentNode.style.fontStyle = "italic";             //make it italic
+
+        }
+
+        function js_revertText(thisDiv){
+            linkText.textContent = linkLabel;                           //reverts link text to label: title/address
+            linkText.parentNode.style.fontStyle = "normal";             //no italics
+        }
+
+        function createSoma(){
+            mainArea = document.getElementById("thesomas");     /*assign variable to target parent div*/
+            soma = document.createElement("div");          /*create the div object for venue info*/
+
+            soma.id = ("js_soma");                         /*associate with id for styling*/
+
+            //first object: image of soma's front door
+            frontDoor = document.createElement('img');          /*create img object*/
+            frontDoor.src = "images/soma.jpg";                  /*define img src*/
+            frontDoor.alt = "Soma main entrance";               /*alt tag for the screenreaders*/
+            soma.appendChild(frontDoor);                    /*add img to soma div*/
+
+            //***NOTE TO SELF***
+            //COMBINE THE NEXT TWO SETS OF JAVASCRIPT INTO ONE FUNCTION?
+
+            //second object: name and link to website
+            titleDiv = document.createElement('div');      /*create div for title*/
+            titleDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
+            titleDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
+
+
+                title = document.createElement('a');            /*create anchor object*/
+                title.id = "js_venue-title";                       /*associate with id for styling*/
+                title.href = "http://www.somasandiego.com";      /*add URL to venue website*/
+                title.target = "_blank";                        /*open in new window*/
+
+                    name = document.createTextNode("Soma");
+                    title.appendChild(name);
+
+            titleDiv.appendChild(title);
+
+            soma.appendChild(titleDiv);
+
+            //address and link to google maps
+            addrDiv = document.createElement('div');
+
+                mapsLink = document.createElement('a');
+                mapsLink.id = "js_gmaps";
+                mapsLink.href = "http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695";
+
+
+
+            soma.appendChild(addrDiv);
+
+            //all the appendChild for soma div: 79(img), 100(title),
+
+            mainArea.appendChild(soma);                    /*add Soma to the mainArea*/
+
+        }
+
+        window.onload = function(){
+            createSoma();
+            console.log(title.attributes);
+                console.log(titleDiv.attributes)
+        };
+    </script>
+</head>
+<body>
+<div id="thesomas">
+<div id="mockup_soma" style="display:block">
+    <!-- the following image downloaded from http://www.lo-cal.com/venues/soma/ -->
+    <img src="images/soma.jpg" alt="Soma main entrance" />
+    <!-- the following icons downloaded from iconfinder.com -->
+    <div id="social-icons">
+        <ul>
+            <li><a target="_blank" href="http://www.facebook.com/somasd">
+                <img src="images/fb.png" alt="Soma Facebook link"/></a></li>
+            <li><a target="_blank" href="http://www.twitter.com/somasd">
+                <img src="images/twitter.png" alt="Soma Twitter link" /></a></li>
+            <li><a target="_blank" href="http://www.myspace.com/somasd">
+                <img src="images/myspace.png" alt="Soma Myspace link" /></a></li>
+        </ul>
+    </div>
+    <div id="info">
+        <div id="name" onmouseover="displayLink(this)" onmouseout="revertText(this)">
+            <a id="venue-title" target="_blank" href="http://www.somasandiego.com">Soma</a>
+        </div>
+
+        <div id="address" onmouseover="displayLink(this)" onmouseout="revertText(this)">
+            <a id="gmaps" target="_blank"
+               href="http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695">
+                3350 Sports Arena Boulevard</a></div>
+
+        <ul id="venue-details">
+            <li>[Midway District]</li>
+            <li id="ages">All ages</li>
+            <li><a href="https://tickets.somasandiego.com/" target="_blank">
+                <img id="tix" src="images/ticket.png" alt="link to ticket site" /></a></li>
+            <li id="ticketing">Box Office/Tix: 619.226.7662</li>
+
+
+        </ul>
+
+        <p>Show upcoming events</p>
+
+
+
+
+        <!-- the following icon downloaded from iconarchive.com -->
+
+    </div>
+</div>
+
+</div>
+</body>
+</html>
