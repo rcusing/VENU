@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4db4d5d5-9187-4e53-9a5a-23cd8e4e062e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accordion-notes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accordion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accordion1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accordion2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes" afterPath="$PROJECT_DIR$/notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soma.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/mockup1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mockup.css" afterPath="$PROJECT_DIR$/stylesheets/mockup.css" />
     </list>
     <ignored path="VENU.iws" />
@@ -44,7 +39,7 @@
       <file leaf-file-name="mockup.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/mockup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="22" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0">
+            <state line="180" column="0" selection-start="2796" selection-end="2892" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_resources.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project_resources.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_resources.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="76" selection-start="3450" selection-end="3450" vertical-scroll-proportion="0.74512744">
+            <state line="64" column="76" selection-start="3450" selection-end="3450" vertical-scroll-proportion="-19.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soma.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/soma.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="163" column="45" selection-start="6341" selection-end="6341" vertical-scroll-proportion="1.9255663">
               <folding />
             </state>
           </provider>
@@ -93,6 +97,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" />
+  </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
@@ -112,14 +119,13 @@
         <option value="$PROJECT_DIR$/stylesheets/mockup.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/soma.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="720" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -135,7 +141,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -146,7 +152,23 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VENU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VENU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -196,13 +218,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="0" y="0" width="720" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51248163" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5110132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -317,11 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mockup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="22" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="282" column="23" selection-start="4297" selection-end="4297" vertical-scroll-proportion="0.0" />
@@ -341,7 +358,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_resources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="76" selection-start="3450" selection-end="3450" vertical-scroll-proportion="0.74512744">
+        <state line="64" column="76" selection-start="3450" selection-end="3450" vertical-scroll-proportion="-19.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mockup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="0" selection-start="2796" selection-end="2892" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="45" selection-start="6341" selection-end="6341" vertical-scroll-proportion="1.9255663">
           <folding />
         </state>
       </provider>
