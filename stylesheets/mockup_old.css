@@ -1,0 +1,242 @@
+body{
+    background-color:#11466F;
+}
+
+#container{
+    position:relative;
+    width:970px;
+    margin:0 auto 0px auto;
+    border-radius:10px;
+    background-color:#ffffff;
+
+}
+
+#menu{
+    height:250px;
+    width:940px;
+    position:relative;
+    background-color:#ffffff;
+    border-top-left-radius:5px;
+    margin:auto auto 15px auto;
+}
+
+#header_logo{
+    position:absolute;
+    top:70px;
+    right:2px;
+}
+
+#accordion{
+    display:none;
+    height:225px;
+    width:970px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-style:solid;
+    border-color:#11466F;
+}
+
+#map_area {                                     /*this is the div holding the map*/
+    height:500px;
+    width:880px;
+    margin:auto;
+
+    background-color:#5b5b5b;
+
+    -webkit-box-shadow:-7px -7px 12px #BEBEBE;  /*Safari&Chrome*/
+    -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
+
+    text-align:right;
+    position:relative;                         /*create stacking context*/
+}
+
+#map{
+    z-index:1;
+}
+
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0px;
+    left:344px;
+}
+
+.mockup_button{
+    height:35px;
+    width:35px;
+    position:absolute;
+}
+
+.mockup_button:hover{
+    height:50px;
+    width:50px
+}
+
+#mockup_button1{
+    left:312px;
+    top:140px;
+}
+
+#mockup_button2{
+    left:455px;
+    top:273px;
+}
+
+#mockup_button3{
+    left:175px;
+    top:175px;
+}
+
+#mockup_button4{
+    left:225px;
+    top:450px;
+}
+
+
+
+
+/*
+
+.mockup_button {
+    visibility:visible;
+}
+
+.mockup_button:hover{
+    visibility:hidden;
+}
+
+/*
+.onmap{
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0;
+    left:350px;
+}
+
+#buttons{
+    z-index:2;
+    border-color:blue;
+    border-style:dashed;
+
+}
+
+/*.button:hover{
+    visibility:visible;
+}
+
+#mockup_button1 {
+    display:block;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button1:hover {
+    display:none;
+    position:absolute;
+    top:155px;
+    left:150px;
+    height:60px;
+    width:65px;
+}
+
+#mockup_button2{
+
+}
+
+#venues{
+    z-index:1;
+    border-color:red;
+    border-style:dotted;
+}
+
+#mockup_venue1 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}
+
+#mockup_venue2 {
+    display:none;
+    position:absolute;
+    top:50px;
+    height:320px;
+    width:310px;
+    overflow:hidden;
+    background-color:white;
+}*/
+
+footer{
+    height:300px;
+    width:900px;
+    margin:0px auto 50px auto;
+
+}
+
+.tabs {
+    list-style:none;
+    text-align:center;
+    margin:0px;
+    position:absolute;
+    bottom:-50px;
+}
+
+.tabs li{
+    height:50px;
+    width:100px;
+    float:left;
+    background-color:#ffffff;
+    border-width:0px 5px 5px 5px;
+    border-style:solid;
+    border-color:white;
+    border-radius:0px 0px 20px 20px;
+    margin-right:10px;
+
+}
+
+.tabs li:hover{
+    background-color:#5884a9;
+}
+
+.tabs li ul{
+    list-style:none;
+    position:relative;
+}
+
+.tabs li ul li{
+    position:absolute;
+    display:none;
+    left:0px;
+    top:-2px;
+}
+
+.tab{
+    text-decoration:none;
+    font-family:"arial", verdana, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#5b5b5b;
+    margin-top:20px;
+}
+
+
+.footer{
+    width:260px;
+    height:300px;
+    background-color:#ffffff;
+    float:left;
+    margin-right:10px;
+    border-style:solid;
+    border-color:#5884a9;
+    border-width:15px;
+    border-radius:15px;
+}
