@@ -1,8 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>A Tale of Two Somas</title>
 
     <link rel="stylesheet" href="stylesheets/mockup.css" />
 
@@ -24,7 +23,6 @@
             border-top-left-radius:20px;
             border-top-right-radius:20px;
 
-            margin-bottom:5px;
         }
 
         #js_venue-title{
@@ -40,6 +38,57 @@
             font-size: 12px;
             font-weight: bold;
             text-decoration: none;
+            margin-left:10px;
+        }
+
+        .details{
+            color:#5B5B5B;
+            font-size:12px;
+            margin: 0 0 5px 10px;
+        }
+
+        #ages{
+            font-style:italic;
+            padding-left:10px;
+        }
+
+        #phone{
+            color:#5b5b5b;
+            font-size:12px;
+            display:inline;
+            position:relative;
+            left:5px;
+            top:-5px;
+        }
+
+        #showEvents{
+            color:#5884A9;
+            font-size:12px;
+            font-weight:bold;
+            margin-left:10px;
+            margin-top:8px;
+        }
+
+        #js_social-icons{
+            position:relative;
+        }
+
+        #js_social-icons ul{
+            list-style-type:none;
+            position:absolute;
+            top:0;
+            right:5px;
+            padding:0;
+            margin:0;
+        }
+
+        #js_social-icons img{
+            border-radius:0;
+        }
+
+        .icons{
+            height:30px;
+            width:30px;
         }
     </style>
 
@@ -78,6 +127,73 @@
             frontDoor.alt = "Soma main entrance";               /*alt tag for the screenreaders*/
             soma.appendChild(frontDoor);                    /*add img to soma div*/
 
+            social = document.createElement('div');
+            social.id = "js_social-icons";
+
+            icons = document.createElement('ul');
+                fb = document.createElement('li');
+                    fbLink = document.createElement('a');
+                    fbLink.href = "http://www.facebook.com/somasd";
+                    fbLink.target = "_blank";
+                    fbLink.title = "Facebook";
+                        fbLogo = document.createElement('img');
+                        fbLogo.className = "icons";
+                        fbLogo.src = "images/fb.png";
+                        fbLogo.alt = "Go to Facebook page";
+                    fbLink.appendChild(fbLogo);
+                fb.appendChild(fbLink);
+            icons.appendChild(fb);
+
+            twit = document.createElement('li');
+            twitLink = document.createElement('a');
+            twitLink.href = "http://www.twitter.com/somasd";
+            twitLink.target = "_blank";
+            twitLink.title = "Twitter";
+            twitLogo = document.createElement('img');
+            twitLogo.className = "icons";
+            twitLogo.src = "images/twitter.png";
+            twitLogo.alt = "Go to Twitter page";
+            twitLink.appendChild(twitLogo);
+            twit.appendChild(twitLink);
+
+            icons.appendChild(twit);
+
+            mySp = document.createElement('li');
+            mySpLink = document.createElement('a');
+            mySpLink.href = "http://www.myspace.com/somasd";
+            mySpLink.target = "_blank";
+            mySpLink.title = "MySpace";
+            mySpLogo = document.createElement('img');
+            mySpLogo.src = "images/myspace.png";
+            mySpLogo.alt = "Go to MySpace page";
+            mySpLogo.className = "icons";
+            mySpLink.appendChild(mySpLogo);
+            mySp.appendChild(mySpLink);
+
+            icons.appendChild(mySp);
+
+            yelp = document.createElement('li');
+            yelpLink = document.createElement('a');
+            yelpLink.href = "http://www.yelp.com/biz/soma-san-diego";
+            yelpLink.target = "_blank";
+            yelpLink.title = "Yelp";
+            yelpLogo = document.createElement('img');
+            yelpLogo.src = "images/yelp.png";
+            yelpLogo.className = "icons";
+            yelpLogo.alt = "Go to Yelp page";
+            yelpLogo.style.width = "32px";
+            yelpLogo.style.height = "32px";
+            yelpLink.appendChild(yelpLogo);
+            yelp.appendChild(yelpLink);
+
+            icons.appendChild(yelp);
+
+            social.appendChild(icons);
+
+            soma.appendChild(social);
+
+
+
             //***NOTE TO SELF***
             //COMBINE THE NEXT TWO SETS OF JAVASCRIPT INTO ONE FUNCTION?
 
@@ -91,9 +207,9 @@
                 title.id = "js_venue-title";                       /*associate with id for styling*/
                 title.href = "http://www.somasandiego.com";      /*add URL to venue website*/
                 title.target = "_blank";                        /*open in new window*/
-
-                    name = document.createTextNode("Soma");
-                    title.appendChild(name);
+                title.textContent = "Soma";
+                    //name = document.createTextNode("Soma");
+                    //title.appendChild(name);
 
             titleDiv.appendChild(title);
 
@@ -101,18 +217,92 @@
 
             //address and link to google maps
             addrDiv = document.createElement('div');
+            addrDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
+            addrDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
 
                 mapsLink = document.createElement('a');
                 mapsLink.id = "js_gmaps";
                 mapsLink.href = "http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695";
+                mapsLink.target = "_blank";
+                mapsLink.textContent = "3350 Sports Arena Boulevard";
+                    //addr = document.createTextNode("3350 Sports Arena Boulevard")
+                    //mapsLink.appendChild(addr);
 
-
+            addrDiv.appendChild(mapsLink);
 
             soma.appendChild(addrDiv);
 
-            //all the appendChild for soma div: 79(img), 100(title),
+            //additional information
+            area = document.createElement('p');
+            area.textContent = "[Midway District]";
+            area.className = "details";
+
+
+
+            /*details = document.createElement('ul');
+            details.id = "details";
+                area = document.createElement('li');
+                area.textContent = "[Midway District]"
+
+            details.appendChild(area);*/
+
+            soma.appendChild(area);
+
+            scene = document.createElement('p');
+            scene.textContent = "Hip Music Venue";
+            scene.className = "details";
+                separator = document.createElement('span');
+                separator.textContent = "||";
+                separator.style.paddingLeft = "10px";
+                scene.appendChild(separator);
+
+                ages = document.createElement('span');
+                ages.textContent = "All ages";
+                ages.id = "ages"
+                scene.appendChild(ages);
+
+            soma.appendChild(scene);
+
+            //tix = document.createElement('p');
+            tix = document.createElement('a');
+            tix.className = "details";
+            //tix.style.cssFloat = "left";
+            tix.style.display = "inline";
+            tix.title = "Go to the ticket site";
+            tix.href = "https://tickets.somasandiego.com";
+            tix.target = "_blank";
+                //tixSite = document.createElement('a');
+                //tixSite.title = "Go to the ticket site";
+                //tixSite.href = "https://tickets.somasandiego.com";
+                //tixSite.target = "_blank";
+                    tixLogo = document.createElement('img');
+                    tixLogo.src = "images/ticket.png";
+                    //tixSite.appendChild(tixLogo);
+                    tix.appendChild(tixLogo);
+                //tix.appendChild(tixSite);
+
+                //boxOfc = document.createTextNode('Box Office: 619.226.7662');
+                //tix.appendChild(boxOfc);
+
+            soma.appendChild(tix);
+
+            boxOfc = document.createElement('p');
+            boxOfc.id = "phone";
+            boxOfc.textContent = "Box Office: 619.226.7662";
+            //boxOfc.style.margin = "12px 0 5px 50px";
+
+            soma.appendChild(boxOfc);
+
+            showEvents = document.createElement('p');
+            showEvents.id = "showEvents";
+            showEvents.textContent = "Show upcoming events";
+
+            soma.appendChild(showEvents);
+
+
 
             mainArea.appendChild(soma);                    /*add Soma to the mainArea*/
+
 
         }
 
@@ -132,11 +322,11 @@
     <div id="social-icons">
         <ul>
             <li><a target="_blank" href="http://www.facebook.com/somasd">
-                <img src="images/fb.png" alt="Soma Facebook link"/></a></li>
+                <img src="images/fb_splash.png" alt="Soma Facebook link"/></a></li>
             <li><a target="_blank" href="http://www.twitter.com/somasd">
-                <img src="images/twitter.png" alt="Soma Twitter link" /></a></li>
+                <img src="images/twitter_splash.png" alt="Soma Twitter link" /></a></li>
             <li><a target="_blank" href="http://www.myspace.com/somasd">
-                <img src="images/myspace.png" alt="Soma Myspace link" /></a></li>
+                <img src="images/myspace_splash.png" alt="Soma Myspace link" /></a></li>
         </ul>
     </div>
     <div id="info">
@@ -150,9 +340,9 @@
                 3350 Sports Arena Boulevard</a></div>
 
         <ul id="venue-details">
-            <li>[Midway District]</li>
-            <li id="ages">All ages</li>
-            <li><a href="https://tickets.somasandiego.com/" target="_blank">
+            <li id="hood">[Midway District]</li>
+            <li id="scene">Hip Music Venue ::<span id="ages"> All ages</span></li>
+            <li><a id="tixURL" href="https://tickets.somasandiego.com/" target="_blank">
                 <img id="tix" src="images/ticket.png" alt="link to ticket site" /></a></li>
             <li id="ticketing">Box Office/Tix: 619.226.7662</li>
 

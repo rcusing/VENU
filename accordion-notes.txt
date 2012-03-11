@@ -1,0 +1,59 @@
+[Step 1]
+Put down the content structure in HTML
+
+[Step 2]
+Style the header
+
+
+
+
+
+<style>
+        #test-accordion {
+            margin: 0;
+            padding: 0;
+            list-style:none;
+            height: 310px;
+            border: 2px solid black;
+        }/*this applies to entire list*/
+
+        #test-accordion li{
+            /*create artist-name rectangles*/
+            /*display:block;
+            overflow: hidden;
+            float:right;
+            margin-top: 0px;
+            padding: 10px;
+            /*makes the list horizontal*/
+
+            width:40px;
+            height: 300px;
+            /*sets size*/
+
+            background:#f0f0f0;
+
+            -moz-transition: width 0.3s ease-in-out;
+            /*sliding action*/
+        }
+
+        #event-title{ /*artist name*/
+            margin: 0;
+            padding:10px;
+            height:19px;
+            width:280px;
+
+            text-transform:uppercase;
+            color: #000;
+            background:#cccccc;
+        }
+
+        #test-accordion li div{ /*event info*/
+            margin:0;
+            width:320px;
+            height:280px;
+            padding:10px;
+
+            display:none;
+        }
+
+    </style>

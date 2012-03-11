@@ -6,8 +6,8 @@
     <meta name="author" content="Denny Tang, Justin Wright, Rachel Cusing, Richard Chen, Samir Mathur">
 
 
-    <!-- javascripts
-    <script src="javascripts/temp.js"></script>-->
+    <!-- javascripts-->
+    <script src="javascripts/soma-part2.js"></script>
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="stylesheets/main.css" />
@@ -19,100 +19,55 @@
         <div id="menu">
             <div id="logo">
             <img id="header_logo" src="images/header_logo.png" />
-            </div><!--end of logo-->
+            </div><!-- end of logo -->
             
-            <div id="accordion"><!--225x970px-->
-            </div><!--end of accordion-->
+            <div id="accordion"><!-- 225x970px -->
+            </div><!-- end of accordion -->
         </div><!-- end of menu -->
 
 
         <div id="map-area">
             <img id="map" src="images/map_530x500.png"  />
 
-            <div class="onmap" id="buttons">
-                <img class="mockup_button" id="mockup_button1" src="images/button.png" />
+            <div id="onmap">
+                <img class="mockup_button" id="mockup_button1" src="images/button.png"
+                        onmouseover="showSomaLogo()" onmouseout="hideSomaLogo()"
+                        onclick="showSoma(event.pageX,event.pageY)"/>
                 <img class="mockup_button" id="mockup_button2" src="images/button.png" />
                 <img class="mockup_button" id="mockup_button3" src="images/button.png" />
-                <img class="mockup_button" id="mockup_button4" src="images/button.png" />
+                <img class="mockup_button" id="mockup_button4" src="images/button.png"
+                        onmouseover="showHouseLogo()" onmouseout="hideHouseLogo()" />
+               
+                <div id="soma-logo">
+                <img src="images/soma_logo.png" />
+                </div>
+                
+                <div id="house-logo">
+                    <img src="images/house_logo.png" />
+                </div>
+
+
+
             </div>
 
-            <!--
-            <div class="onmap" id="venues">
-                <div id="mockup_venue1">
-                    <h3>Venue Name/Logo</h3>
-                    <p>Age range</p>
-                    <p>Neighborhood</p>
-                    <p>Address</p>
-                    <p>Box office #</p>
-                    <a href="#"><p>Website</p></a>
-                    <a href="#"><p>Tix</p></a>
-                    <a href="#"><p>Twitter</p></a>
-                    <a href="#"><p>Facebook</p></a>
-                </div>
-                <div id="mockup_venue2">
-                    <h3>Venue Name/Logo</h3>
-                    <p>Age range</p>
-                    <p>Neighborhood</p>
-                    <p>Address</p>
-                    <p>Box office #</p>
-                    <a href="#"><p>Website</p></a>
-                    <a href="#"><p>Tix</p></a>
-                    <a href="#"><p>Twitter</p></a>
-                    <a href="#"><p>Facebook</p></a>
-                </div>
-            </div>-->
 
         </div><!-- end of map -->
     </div><!-- end of main -->
 
     <footer>
-        <!--<div class="footer_tab" id="contact_tab">Contact Us</div>
-        <div class="footer_tab" id="request_tab">Add a Venue</div>
-        <div class="footer_tab" id="about_tab">About VENU</div>-->
-        <ul class="tabs">
-            <li><p class="tab"
-                    onclick="document.getElementById('contact_form').style.display='block'">
-                <!--<a class="tab" href="#contact_form">-->Contact Us</a></p></p>
-                <ul>
-                    <li><div class="footer" id="contact_form">
-                        <h3>Contact Us</h3>
-                        <form id="contact">
-                            Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                            Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                            Your message (required):
-                            <textarea name="message" rows="5" cols="25" placeholder="So, what's up?"></textarea>
-                            <input type="image" alt="Send" />
-                        </form>
-                    </div></li><!-- end of contact -->
-                </ul>
-            </li>
-            <li><p class="tab"><!--<a class="tab" href="#request_form">-->Add a Venue</a></p>
-                <ul>
-                    <li><div class="footer" id="request_form">
-                        <h3>Add a Venue</h3>
-                        <form id="add_venue">
-                            Your name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                            Your e-mail (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                            Venue name (required): <input required type="text" name="name" autocomplete="on" placeholder="e.g. Rumpelstilstkin"  />
-                            Venue URL (required): <input required type="email" autocomplete="on" placeholder="e.g. goldspinner@straw2gold.com" />
-                            Your message:
-                            <textarea name="message" rows="5" cols="25" placeholder="Tell us why this venue is awesome."></textarea>
-                            <input type="image" alt="Submit Request" />
-
-                        </form>
-                    </div></li><!-- end of request form -->
-                </ul>
-            </li>
-            <li><p><a class="tab" href="#about">About VENU</a></p>
-                <ul>
-                    <li><div class="footer" id="about">
-                        <h3>
-                            About Us</h3>
-                        Team VENU
-                    </div><!-- end of about--></li>
-                </ul>
-            </li>
+        <ul id="footer_tabs">
+            <li id="contact-tab"><p class="tab">Contact Us</p></li>
+            <li id="request-tab"><p class="tab">Add a Venue</p></li>
+            <li id="about-tab"><p class="tab">About VENU</p></li>
         </ul>
+
+            <div class="footer" id="about">
+                <h3>
+                    About Us</h3>
+                Team VENU
+            </div><!-- end of about-->
+
+
 
 
 

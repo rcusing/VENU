@@ -2,6 +2,27 @@
 style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 46px; "
 style="width: 230px; top: 99.5px; margin-left: -99.5px; left: 92px; "
 
+<!--What we need to do: FOR ACCORDION
+- make it pop out the other way
+- fix the dates (color, background, etc.)
+- add content (images, text)
+- how to load content from javascript arrays (IF WE HAVE TIME)
+- make fit with VENU logo transition (IF WE HAVE TIME)
+- flip the header title to other side (IF WE HAVE TIME)-->
+
+<!--What we need to do: FOR MAP, LOGO, FOOTER
+- positioning and styling (FOOTER)
+- finalize Samir javascript functions (FOOTER)
+- logo transition (IF WE HAVE TIME)
+- map (talk to justin tomorrow)
+- draw venue info pop-ups on map using function -->
+
+<!--What we need to do: FINALIZATION
+- integrate our HTML, CSS, Javascript pages (WEEK 10)
+- presentation prep
+- paper
+- cross-browser/different display/resolution check-->
+
 logos and copyright infringement??
 
 add in moz-border-radius?
