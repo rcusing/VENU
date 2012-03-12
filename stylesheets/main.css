@@ -137,7 +137,6 @@ body{
 
 #mockup_soma{
     position:absolute;
-    left:50px;
     height:305px;
     width:255px;
     background-color:white;
@@ -303,10 +302,10 @@ body{
     background-color:white;
 }*/
 
-#js_soma{
+#venue{
     position:absolute;
-    z-index:1;
-    left:400px;
+    left:50px;
+    top:50px;
     height:305px;
     width:255px;
     background-color:white;

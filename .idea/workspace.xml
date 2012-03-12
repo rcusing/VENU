@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4db4d5d5-9187-4e53-9a5a-23cd8e4e062e" name="Default" comment="" />
+    <list default="true" id="4db4d5d5-9187-4e53-9a5a-23cd8e4e062e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/justsoma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/soma-mouseeventsadface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/justsoma.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workingonJS.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javascripts/soma-part2.js" afterPath="$PROJECT_DIR$/javascripts/soma-part3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_mockup.html" afterPath="$PROJECT_DIR$/index_mockup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soma.html" afterPath="$PROJECT_DIR$/soma.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
+    </list>
     <ignored path="VENU.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,19 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="-3.9309878">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mockup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/mockup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="1" selection-start="1115" selection-end="2126" vertical-scroll-proportion="0.0">
+            <state line="309" column="16" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,25 +45,34 @@
       <file leaf-file-name="project_resources.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_resources.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="73" selection-start="3968" selection-end="3968" vertical-scroll-proportion="-23.576923">
+            <state line="75" column="73" selection-start="3968" selection-end="3968" vertical-scroll-proportion="-19.541666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soma.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soma.html">
+      <file leaf-file-name="justsoma.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/justsoma.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="-9.807693">
+            <state line="65" column="13" selection-start="1722" selection-end="2765" vertical-scroll-proportion="-20.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soma-part2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/soma-part2.js">
+      <file leaf-file-name="workingonJS.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workingonJS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="0" selection-start="7485" selection-end="7485" vertical-scroll-proportion="-6.9444447">
+            <state line="52" column="9" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.77544427">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="justsoma.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/justsoma.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="217" column="0" selection-start="1088" selection-end="7344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,15 +82,6 @@
         <entry file="file://$PROJECT_DIR$/somaJSnotes.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="54" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-22.23077">
               <folding />
             </state>
           </provider>
@@ -103,28 +105,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mockup.js" />
-        <option value="$PROJECT_DIR$/javascripts/working.js" />
-        <option value="$PROJECT_DIR$/accordion1.html" />
-        <option value="$PROJECT_DIR$/accordion2.html" />
         <option value="$PROJECT_DIR$/notes" />
-        <option value="$PROJECT_DIR$/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/soma.html" />
         <option value="$PROJECT_DIR$/javascripts/venue.js" />
         <option value="$PROJECT_DIR$/project_resources.html" />
         <option value="$PROJECT_DIR$/somaJSnotes.txt" />
         <option value="$PROJECT_DIR$/index_mockup.html" />
         <option value="$PROJECT_DIR$/stylesheets/mockup.css" />
         <option value="$PROJECT_DIR$/javascripts/mockup.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/soma.html" />
         <option value="$PROJECT_DIR$/javascripts/soma-part2.js" />
+        <option value="$PROJECT_DIR$/javascripts/soma-mouseevent.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/javascripts/soma-part3.js" />
+        <option value="$PROJECT_DIR$/javascripts/justsoma.js" />
+        <option value="$PROJECT_DIR$/justsoma.html" />
+        <option value="$PROJECT_DIR$/workingonJS.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
-    <option name="width" value="960" />
-    <option name="height" value="994" />
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -174,6 +177,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VENU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VENU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -199,9 +216,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javascripts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Admin\VENU\stylesheets" />
       <recent name="C:\Users\Admin\VENU" />
       <recent name="C:\Users\Michael\VENU\stylesheets" />
@@ -245,15 +265,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="0" width="960" height="994" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="25" width="1440" height="789" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51033735" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21383204" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -263,6 +281,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -321,31 +341,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascripts/temp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/working.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.6431274" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/joker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="27" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accordion1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accordion2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accordion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="24" selection-start="402" selection-end="402" vertical-scroll-proportion="-12.423077" />
@@ -356,65 +351,94 @@
         <state line="17" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="73" selection-start="3968" selection-end="3968" vertical-scroll-proportion="-23.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/mockup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-4.2226367">
-          <folding />
-        </state>
+        <state line="85" column="22" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-4.2226367" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_mockup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="4107" selection-end="4107" vertical-scroll-proportion="2.3192687">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soma.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
+        <state line="97" column="0" selection-start="4107" selection-end="4107" vertical-scroll-proportion="2.3192687" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/somaJSnotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="310" column="24" selection-start="10881" selection-end="10889" vertical-scroll-proportion="0.15185784">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/mockup.js">
+    <entry file="file://$PROJECT_DIR$/javascripts/soma-mouseeventsadface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="1" selection-start="1115" selection-end="2126" vertical-scroll-proportion="0.0">
+        <state line="219" column="58" selection-start="7487" selection-end="7487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/soma-part3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="41" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="54" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-22.23077">
+        <state line="33" column="80" selection-start="1033" selection-end="1060" vertical-scroll-proportion="0.7996769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/soma-part2.js">
+    <entry file="file://$PROJECT_DIR$/javascripts/mockup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="0" selection-start="7485" selection-end="7485" vertical-scroll-proportion="-6.9444447">
+        <state line="64" column="1" selection-start="1115" selection-end="2126" vertical-scroll-proportion="1.4930016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/justsoma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="0" selection-start="1088" selection-end="7344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="73" selection-start="3968" selection-end="3968" vertical-scroll-proportion="-19.541666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="-3.9309878">
+        <state line="309" column="16" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/justsoma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="13" selection-start="1722" selection-end="2765" vertical-scroll-proportion="-20.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingonJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="9" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.77544427">
           <folding />
         </state>
       </provider>

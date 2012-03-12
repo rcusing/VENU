@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <script>
+        soma = {pic:"soma.jpg",
+            /*socialLinks:{"uno":["one","une"],
+                        "dos":["two","deux"],
+                        "tres":["three","trois"],
+                        "quatro":["four","quatre"]}*/
+
+            /*socialLinks:{one:["uno","une"],
+                        two:["dos","deux"],
+                        three:["tres","trois"],
+                        four:["quatro","quatre"]}*/
+            /*socialLinks:{"Facebook":["http://www.facebook.com/somasd","ooh"],
+                         "Twitter":["http://www.twitter.com/somasd","eeh"],
+                         "MySpace":["http://www.myspace.com/somasd","oohahh"],
+                         "Yelp":["http://www.yelp.com/biz/soma-san-diego","ahh"]}*/
+            socialSites:{
+                "Facebook":"http://www.facebook.com/somasd",
+                "Twitter":"http://www.twitter.com/somasd",
+                "MySpace":"http://www.myspace.com/somasd",
+                "Yelp":"http://www.yelp.com/biz/soma-san-diego"}
+
+
+        };
+
+        //i=0
+        for (site in soma.socialSites){
+
+            //temp = soma.socialLinks[site];
+           console.log(site, soma.socialSites[site])
+            /*document.write(site);
+            document.write(soma.socialLinks[site]);*/
+        }
+
+        /*for (i=0;i<4;i++){
+            document.write()
+        }*/
+
+        /*iconsImgs = ["fb.png","twitter.png","myspace.png","yelp.png"]
+        //create the four list items without the venue-specific information
+        for (i=0;i<4;i++){
+            socialSite = document.createElement('li');    //create a new list item to the icons list
+            socialLink = document.createElement('a');     //create anchor
+            socialLink.target = "_blank";                 //open in new window
+
+            siteLogo = document.createElement('img');     //create image object
+            siteLogo.className = "icons";                 //assign class for styling
+            siteLogo.src = "images/" + iconsImgs[i];      //get filename from iconsImg array
+        }
+
+        //add venue-specific URLs to each icon
+        for (site in array.socialSites){
+            socialLink.title = site;                       //use name of site as title (for tooltip thingy)
+            socialLink.href = array.socialSites[site];     //add URL:value of each key
+
+
+
+
+
+
+        }*/
+
+        window.onload = function(){
+            console.log(true)
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
