@@ -1,6 +1,6 @@
 tasks:
 -link to events accordion function
-
+-resize logos instead of styling
 
 
 

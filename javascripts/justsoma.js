@@ -215,3 +215,165 @@ function createVenueInfo(array){
     document.getElementById('soma').appendChild(soma);
 
 }
+
+
+soma = {name:"Soma",
+    address:"3350 Sports Arena Boulevard",
+    pic:"soma.jpg",
+    website:"http://www.somasandiego.com",
+    gmaps:"http://maps.google.com/maps/place?q=soma+san+diego&cid=14182757072775344695",
+    socialSites:{
+    "Facebook":"http://www.facebook.com/somasd",
+    "Twitter":"http://www.twitter.com/somasd",
+    "MySpace":"http://www.myspace.com/somasd",
+    "Yelp":"http://www.yelp.com/biz/soma-san-diego"},
+area:"Midway District",
+scene:"Hip Music Venue",
+ages:"All ages",
+tixURL:"https://tickets.somasandiego.com",
+phone:"619.226.7662"
+
+};
+
+function createVenue(array){
+    venue = document.createElement("div");          //create the div object for venue info
+    venue.className = "venue";                                //associate with id for styling
+    venue.id = name;
+
+    //image of venue's main entrance
+    entrance = document.createElement('img');              //add new img object to the DOM
+    entrance.src = "images/" + array.pic;                  //get filename from array
+    entrance.alt = "Image of main entrance";               //for screenreaders
+
+
+
+    //list of links to social networking sites with icons
+    social = document.createElement('div');     //create new div for social networking site icons
+    social.id = "js_social-icons";              //styling
+
+    icons = document.createElement('ul');
+    iconsImgs = {"Facebook":"fb.png",
+    "Twitter":"twitter.png",
+    "MySpace":"myspace.png",
+    "Yelp":"yelp.png"};
+
+function imageLink(desc,URL,imgSrc){
+    var link = document.createElement('a');
+    link.title = desc;
+    link.href = URL;
+    link.target = "_blank";
+
+    var logo = document.createElement('img');
+    logo.src = "images/" + imgSrc;
+    link.appendChild(logo);
+
+    return link
+    }
+
+//create the four list items
+for (icon in iconsImgs){
+    //create the icon object
+    siteLogo = document.createElement('img');     //create image object
+    siteLogo.src = "images/" + iconsImgs[icon];   //get filename associated with current key
+
+    socialLink = imageLink(icon,array.socialSites[icon],iconsImgs[icon]);
+
+    //create list item
+    socialSite = document.createElement('li');     //creates list item
+    socialSite.appendChild(socialLink);            //puts logo link into list item
+
+    icons.appendChild(socialSite);       //add list item to ul:"icons"
+    };
+
+social.appendChild(icons);
+
+//name and link to website
+titleDiv = document.createElement('div');      /*create div for title*/
+titleDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
+titleDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
+
+title = document.createElement('a');            /*create anchor object*/
+title.id = "js_venue-title";                       /*associate with id for styling*/
+title.href = array.website;         //add URL to venue website
+title.target = "_blank";                        /*open in new window*/
+title.textContent = array.name;
+titleDiv.appendChild(title);
+
+
+//address and link to google maps
+addrDiv = document.createElement('div');
+addrDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
+addrDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
+
+mapsLink = document.createElement('a');
+mapsLink.id = "js_gmaps";
+mapsLink.href = array.gmaps;
+mapsLink.target = "_blank";
+mapsLink.textContent = array.address;
+addrDiv.appendChild(mapsLink);
+
+//additional information
+function addInfo(type,text,id){
+    var name = document.createElement(type);
+    name.textContent = text;
+    name.id = id;
+    return name
+    }
+
+
+area = addInfo("p", "[" + array.area + "]", "area");
+scene = addInfo("p", array.scene, "scene");
+separator = addInfo("span", "||", "separator");
+ages = addInfo("ages", array.ages, "ages");
+scene.appendChild(separator);
+scene.appendChild(ages);
+boxOfc = addInfo("p", "Box Office: " + array.phone, "phone");
+showEvents = addInfo("p", "Show upcoming events", "showEvents");
+
+function imageLink(desc,URL,imgSrc){
+    var link = document.createElement('a');
+    link.title = desc;
+    link.href = URL;
+    link.target = "_blank";
+
+    var logo = document.createElement('img');
+    logo.src = "images/" + imgSrc;
+    link.appendChild(logo);
+
+    return link
+    }
+
+tix = imageLink("Go to the ticket site",array.tixURL,"ticket.png");
+tix.id = "tix";
+
+
+//array for items to append to venue div
+venueItems = [entrance, social, titleDiv, addrDiv, area, scene, tix, boxOfc, showEvents]
+for (item in venueItems){
+    venue.appendChild(venueItems[item])
+    };
+
+document.getElementById('map-area').appendChild(venue);
+console.log(venueItems);
+
+}
+
+/*
+function hooray(id) {
+    var venue = null;
+    if (venue != null || venue.style.display == "block"){
+        venue.style.display = "none";
+    }
+    else if (venue != null || venue.style.display == "none"){
+        venue.style.display = "block";
+    }
+    else if (venue == null){
+        createVenue(soma);
+        venue = document.getElementById(id)
+    }
+
+}
+*/
+
+
+

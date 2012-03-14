@@ -302,7 +302,7 @@ body{
     background-color:white;
 }*/
 
-#venue{
+.venue{
     position:absolute;
     left:50px;
     top:50px;
@@ -316,7 +316,7 @@ body{
     border-color:#5b5b5b;
 }
 
-#js_soma img{
+.venue img{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 
@@ -338,10 +338,20 @@ body{
     margin-left:10px;
 }
 
-.details{
+#area{
     color:#5B5B5B;
     font-size:12px;
     margin: 0 0 5px 10px;
+}
+
+#scene{
+    color:#5B5B5B;
+    font-size:12px;
+    margin: 0 0 5px 10px;
+}
+
+#separator{
+    padding-left:10px;
 }
 
 #ages{
@@ -349,13 +359,19 @@ body{
     padding-left:10px;
 }
 
+#tix img{
+    color:#5B5B5B;
+    font-size:12px;
+    margin: 0 0 5px 10px;
+    display: inline;
+    border-radius:0;
+}
+
 #phone{
     color:#5b5b5b;
     font-size:12px;
-    display:inline;
     position:relative;
     left:5px;
-    top:-5px;
 }
 
 #showEvents{
@@ -364,6 +380,10 @@ body{
     font-weight:bold;
     margin-left:10px;
     margin-top:8px;
+}
+
+#showEvents:hover{
+    font-style:italic;
 }
 
 #js_social-icons{
@@ -381,12 +401,10 @@ body{
 
 #js_social-icons img{
     border-radius:0;
-}
-
-.icons{
     height:30px;
     width:30px;
 }
+
 
 footer{
     height:300px;
