@@ -1,0 +1,40 @@
+tasks:
+-link to events accordion function
+-resize logos instead of styling
+
+
+
+
+ideas:
+-consolidate similar create sequences
+-create a loop for appendChild
+    +array with everything to append
+-loop social icons
+-don't create div if it already exists
+-clear map or, first click create, second click destroy.
+    need to selectively z-index button for option2
+-drag and drop
+
+
+
+
+completed:                                              array?
+1. frontDoor - main entrance image                      img src
+2. titleDiv:                                            text: name; URL
+        title - venue name, link to website
+3. addrDiv:                                             text: addr; URL
+        mapsLink - addr, link to google maps
+4. area - neighborhood                                  text: neighborhood
+5. scene:                                               text: scene and ages
+      a. scene - type of venue
+      b. ages - age range for general admission
+      c. separator
+6. tix - link to ticket site                            URL
+7. boxOfc - phone #                                     phone #
+8. showEvents - link to events accordion                variable to pass to the function
+9. social:                                              URLs
+         icons - list of icons
+           fb
+           twitter
+           myspace
+           yelp
