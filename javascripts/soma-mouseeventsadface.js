@@ -217,23 +217,29 @@ function createSoma(x,y){
 
 
     document.getElementById('map-area').appendChild(soma);
-        console.log(soma.style.left, soma.style.top)
+        console.log(soma.style.left, soma.style.top, x, y)
 
 }
 
 function showSoma(x,y){
-    hideSomaLogo();
     document.getElementById('mockup_button1').style.width = '50px';     //keep button big
     document.getElementById('mockup_button1').style.height = '50px';
-    isShown = document.getElementById('js_soma') != null;
 
-    if (isShown){
+    //venue info div does not exist
+    if (document.getElementById('js_soma') == null){
+        createSoma(x,y);
+    }
 
+    //click again to hide the venue div, without removing it
+    else if (document.getElementById('js_soma').style.display == "block") {
+        document.getElementById('js_soma').style.display = "none";
         document.getElementById('mockup_button1').style.width = '35px'; //back to little button
         document.getElementById('mockup_button1').style.height = '35px';
     }
+
+    //click again to display the venue div
     else {
-        document.getElementById('mockup_soma').style.display = 'block';
+        document.getElementById('js_soma').style.display = "block";
     }
 
 }

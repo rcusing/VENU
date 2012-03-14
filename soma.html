@@ -3,7 +3,9 @@
 <head>
     <title>A Tale of Two Somas</title>
 
+    <script type="text/javascript" src="javascripts/justsoma.js"></script>
     <link rel="stylesheet" href="stylesheets/mockup.css" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
 
     <style>
         #js_soma{
@@ -52,7 +54,7 @@
             padding-left:10px;
         }
 
-        #phone{
+        #_phone{
             color:#5b5b5b;
             font-size:12px;
             display:inline;
@@ -98,11 +100,11 @@
             linkLabel = linkText.textContent;                           //the actual string
 
             linkURL = linkText.parentNode.attributes[1].textContent;    //URL string
-            if (linkURL.match("maps.google") != null){                  //address --> google maps
+            if (linkURL.match("maps.google") != null){                  //address: google maps
                 linkText.textContent = "Go to Google Maps";
             }
 
-            else {                                                      //venue title --> site URL
+            else {                                                      //venue title: site URL
                 linkText.textContent = linkURL.slice(11);
             }
 
@@ -232,11 +234,13 @@
 
             soma.appendChild(addrDiv);
 
+            //addInfo = document.createElement('div');
+            //addInfo.id = "details";
             //additional information
             area = document.createElement('p');
             area.textContent = "[Midway District]";
             area.className = "details";
-
+            //addInfo.appendChild(area);
 
 
             /*details = document.createElement('ul');
@@ -298,22 +302,24 @@
             showEvents.textContent = "Show upcoming events";
 
             soma.appendChild(showEvents);
-
+            //soma.appendChild(addInfo);
 
 
             mainArea.appendChild(soma);                    /*add Soma to the mainArea*/
 
 
-        }
+        };
+        </script>
+    <script>
 
         window.onload = function(){
             createSoma();
-            console.log(title.attributes);
-                console.log(titleDiv.attributes)
-        };
+            console.log(document.getElementById('js_soma')!=null);}
+
+
     </script>
 </head>
-<body>
+<body onload="hooray()">
 <div id="thesomas">
 <div id="mockup_soma" style="display:block">
     <!-- the following image downloaded from http://www.lo-cal.com/venues/soma/ -->
