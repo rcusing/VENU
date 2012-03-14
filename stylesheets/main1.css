@@ -205,7 +205,10 @@ body{
     padding-left:5px;
 }
 
-
+#tix{
+    float:left;
+    margin-top:-3px;
+}
 
 #ticketing{
     margin-top:10px;
@@ -356,24 +359,19 @@ body{
     padding-left:10px;
 }
 
-#tix{
-    display:inline;
-    margin-left:10px;
-    height:23px;
-    width:36px;
-}
-
 #tix img{
+    color:#5B5B5B;
+    font-size:12px;
+    margin: 0 0 5px 10px;
+    display: inline;
     border-radius:0;
 }
 
 #phone{
-    display:inline;
     color:#5b5b5b;
     font-size:12px;
     position:relative;
     left:5px;
-    top:-3px;
 }
 
 #showEvents{

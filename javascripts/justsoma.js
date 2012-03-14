@@ -238,7 +238,7 @@ phone:"619.226.7662"
 function createVenue(array){
     venue = document.createElement("div");          //create the div object for venue info
     venue.className = "venue";                                //associate with id for styling
-    venue.id = name;
+    venue.id = array.name;
 
     //image of venue's main entrance
     entrance = document.createElement('img');              //add new img object to the DOM
@@ -272,9 +272,6 @@ function imageLink(desc,URL,imgSrc){
 
 //create the four list items
 for (icon in iconsImgs){
-    //create the icon object
-    siteLogo = document.createElement('img');     //create image object
-    siteLogo.src = "images/" + iconsImgs[icon];   //get filename associated with current key
 
     socialLink = imageLink(icon,array.socialSites[icon],iconsImgs[icon]);
 
@@ -289,6 +286,7 @@ social.appendChild(icons);
 
 //name and link to website
 titleDiv = document.createElement('div');      /*create div for title*/
+    titleDiv.id="name";
 titleDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
 titleDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
 
@@ -302,6 +300,7 @@ titleDiv.appendChild(title);
 
 //address and link to google maps
 addrDiv = document.createElement('div');
+    addrDiv.id = "address";
 addrDiv.addEventListener("mouseover",function(){js_displayLink(this)},false);
 addrDiv.addEventListener("mouseout",function(){js_revertText(this)},false);
 
@@ -358,22 +357,21 @@ console.log(venueItems);
 
 }
 
-/*
+
 function hooray(id) {
-    var venue = null;
+    /*var venue = null;
     if (venue != null || venue.style.display == "block"){
         venue.style.display = "none";
     }
     else if (venue != null || venue.style.display == "none"){
         venue.style.display = "block";
     }
-    else if (venue == null){
+    else if (venue == null){*/
         createVenue(soma);
         venue = document.getElementById(id)
-    }
+    //}
 
 }
-*/
 
 
 
