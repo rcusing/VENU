@@ -27,7 +27,7 @@ HouseofBlues = {name:"House of Blues",
                     "MySpace":"http://www.myspace.com/somasd",
                     "Yelp":"http://www.yelp.com/biz/soma-san-diego"},
                 area:"Downtown",
-                scene:"Hip Music Venue",
+                scene:"Concert Hall",
                 ages:"All ages",
                 tixURL:"https://tickets.somasandiego.com",
                 phone:"619.226.7662"
