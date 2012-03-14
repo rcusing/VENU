@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d49eb3c5-5220-4880-9a08-a5e839460719" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\button.png" afterPath="$PROJECT_DIR$/finalish/images/button.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\fb.png" afterPath="$PROJECT_DIR$/finalish/images/fb.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\header_logo.png" afterPath="$PROJECT_DIR$/finalish/images/header_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\house_logo.png" afterPath="$PROJECT_DIR$/finalish/images/house_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\map_530x500.png" afterPath="$PROJECT_DIR$/finalish/images/map_530x500.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\myspace.png" afterPath="$PROJECT_DIR$/finalish/images/myspace.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\soma.jpg" afterPath="$PROJECT_DIR$/finalish/images/soma.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\soma_logo.png" afterPath="$PROJECT_DIR$/finalish/images/soma_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\ticket.png" afterPath="$PROJECT_DIR$/finalish/images/ticket.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\twitter.png" afterPath="$PROJECT_DIR$/finalish/images/twitter.png" />
-      <change type="MOVED" beforePath="C:\Users\Michael\VENU\images\yelp.png" afterPath="$PROJECT_DIR$/finalish/images/yelp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_4boxes.html" afterPath="$PROJECT_DIR$/index_4boxes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_accordion_footer_FF.html" afterPath="$PROJECT_DIR$/index_accordion_footer_FF.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_mockup.html" afterPath="$PROJECT_DIR$/index_mockup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soma.html" afterPath="$PROJECT_DIR$/soma.html" />
-    </list>
+    <list default="true" id="d49eb3c5-5220-4880-9a08-a5e839460719" name="Default" comment="" />
     <ignored path="VENU.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,25 +16,6 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/finalish/main.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="91" column="69" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.8176734">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="VENU" />
@@ -261,6 +223,7 @@
     <frame x="972" y="0" width="960" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -314,7 +277,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="map" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -327,6 +290,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

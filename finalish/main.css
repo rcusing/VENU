@@ -1,0 +1,415 @@
+/*****OVERALL PAGE*****/
+body{
+    background-color:#11466F;
+    font-family:"arial", verdana, sans-serif;
+}
+
+#container{
+    position:relative;
+    width:970px;
+    margin:0 auto 0px auto;
+    border-radius:10px;
+    background-color:#ffffff;
+
+}
+
+/*****MENU - TOP SECTION: SITE HEADER, EVENTS INFO*****/
+#menu{
+    height:250px;
+    width:940px;
+    position:relative;
+    background-color:#ffffff;
+    border-top-left-radius:5px;
+    margin:auto auto 15px auto;
+}
+
+#header_logo{
+    position:absolute;
+    top:70px;
+    right:2px;
+}
+
+#accordion{
+    display:none;
+    height:225px;
+    width:970px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-style:solid;
+    border-color:#11466F;
+}
+
+/*****MAP AREA - MID SECTION: MAP*****/
+#map-area {                                     /*this is the div holding the map*/
+    height:500px;
+    width:880px;
+    margin:auto;
+
+    background-color:#5b5b5b;
+
+    -webkit-box-shadow:-7px -7px 12px #BEBEBE;  /*Safari&Chrome*/
+    -moz-box-shadow:-7px -7px 12px #BEBEBE;     /*FF*/
+
+    text-align:right;
+    position:relative;
+}
+
+
+/*****MAP AREA - MID SECTION: MAP CONTENT*****/
+#onmap {
+    height:500px;
+    width:530px;
+    position:absolute;
+    top:0px;
+    left:350px;
+}
+
+/*****MAP CONTENT: BUTTONS*****/
+.button{
+    height:35px;
+    width:35px;
+    position:absolute;
+}
+
+.button:hover{
+    height:50px;
+    width:50px;
+    z-index:1;
+}
+
+#TheLoft{
+    top:0;
+    left:100px;
+}
+
+#Porters{
+    top:10px;
+    left:70px;
+}
+
+#CheCafe{
+    top:30px;
+    left:85px;
+}
+
+#Soma{
+    top:150px;
+    left:200px;
+
+}
+
+#RubyRoom{
+    left:306px;
+    top:140px;
+}
+
+#Viejas{
+    left:449px;
+    top:273px;
+}
+
+#{
+    left:169px;
+    top:175px;
+}
+
+#Humphreys{
+    left:219px;
+    top:450px;
+}
+
+/*****MAP CONTENT: VENUE INFO*****/
+#soma-logo{
+    background-color:white;
+    width:100px;
+    height:42px;
+    padding:15px;
+    border-radius:20px;
+    position:absolute;
+    left:333px;
+    top:82px;
+    display:none;
+
+}
+
+#house-logo{
+    background-color:white;
+    width:100px;
+    height:100px;
+    padding:15px;
+    border-radius:20px;
+    position:absolute;
+    top:336px;
+    left:110px;
+    display:none;
+
+}
+
+#mockup_soma{
+    position:absolute;
+    height:305px;
+    width:255px;
+    background-color:white;
+    text-align:left;
+    border-radius:20px;
+    display:none;
+    border-style:outset;
+    border-color:#5b5b5b;
+}
+
+#mockup_soma img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+
+#social-icons{
+    position:relative;
+    background-color:#5b5b5b;
+}
+
+#social-icons ul{
+    list-style-type:none;
+    position:absolute;
+    right:5px;
+    top:0;
+    padding:0;
+}
+
+#info{
+    margin-left:10px;
+}
+
+#venue-title{
+    text-decoration:none;
+    font-size:14px;
+    color:#5884a9;
+    font-weight:bold;
+}
+
+#gmaps{
+    text-decoration:none;
+    font-size:12px;
+    color:#5884a9;
+    font-weight:bold;
+}
+
+#venue-details{
+    font-size:12px;
+    margin-top:0;
+    padding:0;
+    list-style-type:none;
+}
+
+#venue-details li{
+    margin-bottom:5px;
+    color:#5b5b5b;
+}
+
+#scene{
+    padding-right:5px;
+}
+
+#ages{
+    font-style:italic;
+    padding-left:5px;
+}
+
+
+
+#ticketing{
+    margin-top:10px;
+}
+
+#info p{
+    font-size:12px;
+    font-weight:bold;
+    color:#5884a9;
+}
+
+#info p:hover{
+    font-style:italic;
+}
+
+
+
+.venue{
+    position:absolute;
+    left:50px;
+    top:50px;
+    height:305px;
+    width:255px;
+    background-color:white;
+    text-align:left;
+    border-radius:20px;
+    display:block;
+    border-style:outset;
+    border-color:#5b5b5b;
+}
+
+.venue img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+
+#js_venue-title{
+    text-decoration:none;
+    font-size:14px;
+    color:#5884a9;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+#js_gmaps {
+    color: #5884A9;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left:10px;
+}
+
+#area{
+    color:#5B5B5B;
+    font-size:12px;
+    margin: 0 0 5px 10px;
+}
+
+#scene{
+    color:#5B5B5B;
+    font-size:12px;
+    margin: 0 0 5px 10px;
+}
+
+#separator{
+    padding-left:10px;
+}
+
+#ages{
+    font-style:italic;
+    padding-left:10px;
+}
+
+#tix{
+    display:inline;
+    margin-left:10px;
+    height:23px;
+    width:36px;
+}
+
+#tix img{
+    border-radius:0;
+}
+
+#phone{
+    display:inline;
+    color:#5b5b5b;
+    font-size:12px;
+    position:relative;
+    left:5px;
+    top:-3px;
+}
+
+#showEvents{
+    color:#5884A9;
+    font-size:12px;
+    font-weight:bold;
+    margin-left:10px;
+    margin-top:8px;
+}
+
+#showEvents:hover{
+    font-style:italic;
+}
+
+#js_social-icons{
+    position:relative;
+}
+
+#js_social-icons ul{
+    list-style-type:none;
+    position:absolute;
+    top:0;
+    right:5px;
+    padding:0;
+    margin:0;
+}
+
+#js_social-icons img{
+    border-radius:0;
+    height:30px;
+    width:30px;
+}
+
+
+footer{
+    height:300px;
+    width:900px;
+    margin:0px auto 50px auto;
+
+}
+
+.tabs {
+    list-style:none;
+    text-align:center;
+    margin:0px;
+    position:absolute;
+    bottom:-50px;
+}
+
+.tabs li{
+    height:50px;
+    width:100px;
+    float:left;
+    background-color:#ffffff;
+    border-width:0px 5px 5px 5px;
+    border-style:solid;
+    border-color:white;
+    border-radius:0px 0px 20px 20px;
+    margin-right:10px;
+
+}
+
+.tabs li:hover{
+    background-color:#5884a9;
+}
+
+.tabs li ul{
+    list-style:none;
+    position:relative;
+}
+
+.tabs li ul li{
+    position:absolute;
+    display:block;
+    left:0px;
+    top:-2px;
+}
+
+.tab{
+    text-decoration:none;
+    font-family:"arial", verdana, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#5b5b5b;
+    margin-top:20px;
+}
+
+
+.footer{
+    width:260px;
+    height:300px;
+    background-color:#ffffff;
+    float:left;
+    margin-right:10px;
+    border-style:solid;
+    border-color:#5884a9;
+    border-width:15px;
+    border-radius:15px;
+}
+
+#request_form{
+    position:relative;
+    z-index:2;
+}
